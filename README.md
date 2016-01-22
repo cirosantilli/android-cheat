@@ -1,4 +1,16 @@
-# Android
+# Android Cheat
+
+Tested on Android 23, Ubuntu 15.10.
+
+1.  Theory
+    1.  [android command](android-command.md)
+    1.  [adb](adb.md)
+        1. [Directory structure](directory-structure.md)
+        1. [ant](ant.md)
+    1.  [Apps](apps.md)
+    1.  [Root](root.md)
+1.  Examples
+    1. [Default](default/)
 
 ## Chats
 
@@ -113,164 +125,6 @@ Disable:
 - <http://android.stackexchange.com/questions/60103/how-can-i-disable-voicemail-notifications>
 - <http://forums.androidcentral.com/samsung-galaxy-s4/276901-there-way-turn-off-voicemail-notifications.html>
 
-## Apps
-
-TODO: how to add Skype number to a contact?
-
-### Chrome
-
-#### Full screen
-
-Hides the address bar. Impossible to leave?
-
-<http://stackoverflow.com/questions/28647604/force-hide-address-bar-in-chrome-on-android>
-<http://android.stackexchange.com/questions/63324/how-to-exit-fullscreen-in-android-chrome>
-
-### Default apps for each type of file
-
-TODO how to set it??
-
-Lollipop: go under Settings > Apps, and remove the app as default: https://www.androidpit.com/how-to-change-android-default-apps
-
-First you must find which app it is by opening some file with it.
-
-### Energy consumption of apps
-
-TODO: how to find energy hogs?
-
-GPS settings do show the energy consumption for each GPS using app. TODO: how is it calculated? <http://stackoverflow.com/questions/20012518/recent-location-requests-high-battery-use>
-
-### Block number
-
-- http://talk.sonymobile.com/t5/Xperia-Z1-Z1s/How-to-block-someones-call-and-sms-on-ma-xperia-z1/m-p/799031#M32118
-- http://android.stackexchange.com/questions/80806/how-to-block-a-number-in-sony-xperia-j
-
-### Camera
-
-Sony Xperia stores camera pictures under `/sdcard/DSIM/100ANDRO`>
-
-<https://en.wikipedia.org/wiki/Data_center_infrastructure_management>
-
-#### Google photos
-
-Share all photos: <https://www.reddit.com/r/google/comments/3dqx07/google_photos_share_entire_library/>
-
-### Play Music
-
-Google default music player.
-
-TODO: how to find music path in phone?
-
-### Keyboard
-
-How to change keyboard autocomplete language?
-
-Per-app keyboard: apparently not possibly by default:
-
-- <http://gs5.wonderhowto.com/how-to/automatically-change-keyboards-for-specific-apps-android-0160081/>
-- <http://androidforums.com/threads/keyboard-per-app.860155/>
-
-#### Unicode input
-
-<http://android.stackexchange.com/questions/17994/how-can-i-type-special-symbols-on-my-android-device-like-or-as-a-regular-cha>
-
-This currently looks like the only Unicode keyboard out there, but it is paid! <https://play.google.com/store/apps/details?id=uk.co.cwd.unicodekeyboard>
-
-#### Google Keyboard
-
-Voice recognition button is there, but does nothing! Android 5.1.1, latest Google keyboard: <https://productforums.google.com/forum/#!topic/nexus/SGacqxsz09I> The top answer there worked!
-
-### Google search bar does not fit anymore on the top of the home screen
-
-Settings -> Apps -> All -> Xperia Home -> Clear data -> OK.
-
-### WhatsApp
-
-Emoji: button to the left of text box!
-
-Web interface: https://web.whatsapp.com/ App menu does not have the button for me: <http://android.stackexchange.com/questions/96531/how-to-scan-qr-code-for-whatsapp-web#comment162747_96547>
-
-Double ticks: <https://www.quora.com/Do-double-grey-ticks-on-the-WhatsApp-mean-the-person-is-online>
-
-- 1 gray tick: sent to server
-- 2 gray ticks: sent to recipient's phone
-- 2 blue ticks: recipient read the message
-
-### Facebook messenger
-
-Why it exists in addition to WhatsApp: <http://thenextweb.com/facebook/2014/04/10/facebooks-two-pronged-mobile-messaging-app-strategy/>
-
-Meh, they just bought off the competition.
-
-#### Facebook chat heads
-
-<http://stackoverflow.com/questions/15975988/what-apis-in-android-is-facebook-using-to-create-chat-heads>
-
-### Contacts
-
-TODO? Call with custom app: E.g. Skype. Only works for WhatsApp out of the box...
-
-#### Per contact ringtone
-
-Yes, from the magic Contacts app!
-
-Select a contact, hit the menu item then set ringtone.
-
-### Wallpaper
-
-### Ringtone
-
-Remove gap: <http://android.stackexchange.com/questions/24466/how-do-i-remove-delay-between-ringtones>
-
-Psychoacoustics: best type:
-
-- <http://www.everydaylistening.com/articles/2011/5/29/the-definition-of-a-good-ringtone.html>
-- <http://gizmodo.com/5983194/whats-the-best-ringtone-youve-ever-heard>
-
-My take:
-
-- high pitch is more audible
-- more continuous sound is better
-- not longer than 4 seconds so you know it is a ringtone, how many times it sounded, and not regular music
-- does not start too abruptly so as to not jump scare you
-
-Good song starts:
-
-- qu yuan lisao
-- return to forever medieval ouverture
-
-#### Ringtone location
-
-- http://android.stackexchange.com/questions/56905/where-is-the-default-ringtone-stored
-- http://android.stackexchange.com/questions/123802/location-for-custom-ringtones-alarms-notifications-that-hides-them-from-play-mus
-- http://android.stackexchange.com/questions/28300/how-to-manually-upload-ringtones-and-notifications-to-droidx
-
-Best place seems:
-
-    /system/media/audio/ringtones
-
-`ogg` and `mp3` both worked fine.
-
-#### Media scan
-
-Songs don't show by default after you copy them manually there: <http://android.stackexchange.com/questions/56905/where-is-the-default-ringtone-stored/56908?noredirect=1#comment162980_56908>
-
-You need to trigger the media scan.
-
-One way to do that is to reboot.
-
-From the CLI without rebooting: <http://android.stackexchange.com/questions/51784/can-i-trigger-a-media-scan-via-the-the-command-line>
-
-There's an app for that: <https://play.google.com/store/apps/details?id=com.addz.mediascanner>
-
-### Native development
-
-Dev android apps inside Android!
-
-<https://play.google.com/store/apps/details?id=com.aide.ui&feature=search_result>
-
-### Sky
-
 ## Bloatware
 
 Shitty software pre-installed by OEMs or carriers to get money from your personal information.
@@ -373,13 +227,13 @@ Each App runs under a different UID: <http://security.stackexchange.com/question
 
 Android uses it's custom GUI API. Some day, maybe.
 
-### adb
+### APK
 
-### am
+Packaging format for android apps.
 
-Developer helper command line utilities.
+#### Aligned vs unaligned
 
-- <http://stackoverflow.com/questions/6613889/how-to-start-an-android-application-from-the-command-line>
+<http://stackoverflow.com/questions/22058210/why-unaligned-apk-is-needed>
 
 ### AOSP
 
@@ -432,6 +286,24 @@ API needed for native compiled code (e.g. from C) API.
 - <http://unix.stackexchange.com/questions/146971/is-android-compatible-with-the-linux-standard-base>
 - <http://stackoverflow.com/questions/12111640/android-ndk-and-posix-functions>
 
+### Java 8
+
+Nope: <http://stackoverflow.com/questions/23318109/is-it-possible-to-use-java-8-for-android-development>
+
+### Versions
+
+### API level
+
+<https://en.wikipedia.org/wiki/Android_version_history>
+
+<http://stackoverflow.com/questions/8629687/android-api-level-vs-android-versionvuj>
+
+TODO: API level vs version, e.g. 6.0 vs version 23?
+
+#### Upgrade without OEM
+
+It seems that it is the OEM that decides when to upgrade: <http://www.trustedreviews.com/opinions/android-6-0-marshmallow-update>
+
 #### Utility replacements
 
 - `ifconfig`: `netcfg` + `ifconfig`
@@ -457,24 +329,6 @@ Best method:
     netcfg
 
 from a terminal emulator app.
-
-### Root
-
-### sudo
-
-TODO what does it do exactly?
-
-- <http://gizmodo.com/5982287/reasons-to-root-your-android-device>
-- <http://www.androidcentral.com/root>
-- <http://www.digitaltrends.com/mobile/how-to-root-android/>
-
-Many rooted apps are available on the Play store itself. Google is much less restrictive than Apple is about jailbreaking.
-
-You need to backup your ROM and replace it with a new one.
-
-Kingo Root method: <https://www.youtube.com/watch?v=AWNykj-lb-I>
-
-Once you have it, just type `su` on the SSH session or terminal emulator and go.
 
 ### ROM
 
@@ -640,3 +494,9 @@ TODO where is it?? How to turn it on?
 ## Peripherals
 
 - joystick root calibration method <https://www.youtube.com/watch?v=GwrGpVquGyo>
+
+## aar
+
+## Android library project
+
+<http://stackoverflow.com/questions/23915619/android-archive-library-aar-vs-standard-jar>
