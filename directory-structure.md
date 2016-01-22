@@ -13,3 +13,4 @@
             - `xxxhdpi` (extra-extra-extra-high) ~640dpi
             There is also:
             - `drawable-ldrtl-<density>`, which stands for "layout-direction-right-to-left", e.g. Arabic and Hebrew.
+    - `values/strings.xml`: `<string name="app_name">MyActivity</string>`

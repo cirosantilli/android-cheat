@@ -7,6 +7,7 @@ Tested on Android 23, Ubuntu 15.10.
     1.  [adb](adb.md)
         1. [Directory structure](directory-structure.md)
         1. [ant](ant.md)
+    1.  [Gradle](gradle.md)
     1.  [Apps](apps.md)
     1.  [Root](root.md)
 1.  Examples
@@ -272,6 +273,10 @@ No JIT, full AOT is done.
 
     TODO: linked to the Intel partnership? Or that one is yet to be released?
 
+### SDK
+
+Software Development Kit.
+
 ### NDK
 
 Native Development Kit.
@@ -291,6 +296,10 @@ API needed for native compiled code (e.g. from C) API.
 Nope: <http://stackoverflow.com/questions/23318109/is-it-possible-to-use-java-8-for-android-development>
 
 ### Versions
+
+Compatible platform versions are specified as a range under `AndroidManifest.xml`.
+
+https://developer.android.com/training/basics/supporting-devices/platforms.html#sdk-versions
 
 ### API level
 
