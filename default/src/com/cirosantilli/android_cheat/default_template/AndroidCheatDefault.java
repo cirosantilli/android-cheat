@@ -1,9 +1,9 @@
-package com.cirosantilli.android_cheat;
+package com.cirosantilli.android_cheat.default_template;
 
 import android.app.Activity;
 import android.os.Bundle;
 
-public class MyActivity extends Activity
+public class AndroidCheatDefault extends Activity
 {
     /** Called when the activity is first created. */
     @Override

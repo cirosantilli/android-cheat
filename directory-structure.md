@@ -1,5 +1,7 @@
 # Directory structure
 
+The directory structure of an android project.
+
 <http://stackoverflow.com/questions/4761406/complete-list-of-all-android-resource-folders>
 
 -   `res`: resources. Both configuration strings like `values/strings.xml`, and media like images and audio.

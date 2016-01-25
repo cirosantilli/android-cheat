@@ -2,6 +2,14 @@
 
 Android Debug Bridge.
 
+## Architecture
+
+Three parts:
+
+- client that runs on computer
+- server that also runs on computer
+- daemon that runs on cell phone
+
 ## devices
 
 List connected devices:
@@ -20,7 +28,10 @@ TODO: I think this also lists emulators. TODO check.
 
 ## install
 
-TODO: mention udev, device will ask for permission on screen.
+TODO: mention udev, device will ask for permission on screen. Then do:
+
+      sudo "$(which adb)" kill-server
+      sudo "$(which adb)" start-server
 
 Install given apk to a device:
 
@@ -35,3 +46,7 @@ Otherwise you have to specify a device with:
 The default generated `ant` file does this with `ant debug install`.
 
 <http://stackoverflow.com/questions/4974568/how-do-i-launch-the-android-emulator-from-the-command-line>
+
+## shell
+
+TODO: is this the same as SSH? If not, how?

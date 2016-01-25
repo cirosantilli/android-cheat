@@ -3,15 +3,19 @@
 Tested on Android 23, Ubuntu 15.10.
 
 1.  Theory
-    1.  [android command](android-command.md)
-    1.  [adb](adb.md)
-        1. [Directory structure](directory-structure.md)
-        1. [ant](ant.md)
-    1.  [Gradle](gradle.md)
-    1.  [Apps](apps.md)
     1.  [Root](root.md)
+    1.  Development
+        1.  [android command](android-command.md)
+        1.  [adb](adb.md)
+            1. [Directory structure](directory-structure.md)
+            1. [ant](ant.md)
+        1.  [Gradle](gradle.md)
+        1.  [Apps](apps.md)
+    1.  Internals
+        1. [File hierarchy](file-hierarchy.md)
 1.  Examples
     1. [Default](default/)
+    1. [min](min/)
 
 ## Chats
 
@@ -273,10 +277,6 @@ No JIT, full AOT is done.
 
     TODO: linked to the Intel partnership? Or that one is yet to be released?
 
-### SDK
-
-Software Development Kit.
-
 ### NDK
 
 Native Development Kit.
@@ -299,7 +299,9 @@ Nope: <http://stackoverflow.com/questions/23318109/is-it-possible-to-use-java-8-
 
 Compatible platform versions are specified as a range under `AndroidManifest.xml`.
 
-https://developer.android.com/training/basics/supporting-devices/platforms.html#sdk-versions
+<https://developer.android.com/training/basics/supporting-devices/platforms.html#sdk-versions>
+
+TODO: if you compile with a platform with level 23, can that run on a device with with level 22?
 
 ### API level
 
@@ -369,28 +371,6 @@ Kill Windows.
 - <http://android.stackexchange.com/questions/4021/how-can-i-execute-command-in-the-terminal-as-root>
 
 Undocumented? Great.
-
-### File hierarchy
-
-- <http://android.stackexchange.com/questions/46926/android-folder-hierarchy>
-- <http://stackoverflow.com/questions/8268186/android-what-is-the-default-location-for-storing-images>
-- <http://android.stackexchange.com/questions/27692/where-is-current-wallpaper-stored-on-jellybean>
-
-#### Internal storage
-
-<http://stackoverflow.com/questions/25361238/difference-between-internal-sd-card-and-internal-storage>
-
-The internal SD card is partitioned and mounted as follows:
-
-- `/system` is mounted readonly and is the ROM
-- `/sdcard` internal SD card
-    - `/sdcard/Music` main music location. Apps will look there by default, but on other places as well. TODO API enforced, or just convention?
-    - `/sdcard/Pictures` stock pictures
-    - `/sdcard/Pictures/Screenshots`
-    - `/sdcard/Ringtones`
-    - Play Music location: <http://android.stackexchange.com/questions/16220/where-does-google-music-store-offline-songs>
-- `/data` is called "Internal storage", and contains apps and their data
-- `/storage`
 
 ### USB debugging mode
 
