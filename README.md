@@ -14,6 +14,7 @@ Tested on Android 23, Ubuntu 15.10.
         1.  [Apps](apps.md)
         1.  [SDK](sdk.md)
         1.  [NDK](ndk.md)
+    1.  [AOSP](aosp.md)
     1.  Internals
         1.  [Device file hierarchy](device-file-hierarchy.md)
 1.  [Examples](examples.md)
@@ -212,19 +213,6 @@ Find: <http://android.stackexchange.com/questions/2016/how-can-you-tell-which-ve
 
 SSH method working: http://askubuntu.com/questions/189591/connecting-android-4ice-cream-sandwich-jelly-bean-kitkat-phone#comment1035980_222851
 
-## Internals
-
-Find Linux kernel version:
-
-- Found on About phone: <https://www.quora.com/What-does-kernel-version-mean-and-why-is-the-Android-version-and-the-kernel-version-different>
-- big list: <http://android.stackexchange.com/questions/51651/which-android-runs-which-linux-kernel> but it was wrong according to my about phone
-
-Usage data: <https://en.wikipedia.org/wiki/Android_version_history#/media/File:Android_historical_version_distribution_-_vector.svg>
-
-Pull requests: <https://android-review.googlesource.com> (uses Gerrit which was created for Android)
-
-Browse source: <https://android.googlesource.com/> (uses gitiles, apparently also created for Android?)
-
 ## App isolation
 
 Each App runs under a different UID: <http://security.stackexchange.com/questions/67188/android-app-isolation-risks-implementation> So it just reuses Linux's security.
@@ -243,12 +231,6 @@ Packaging format for android apps.
 #### Aligned vs unaligned
 
 <http://stackoverflow.com/questions/22058210/why-unaligned-apk-is-needed>
-
-### AOSP
-
-Open source parts of Android: missing driver blobs and Google proprietary apps.
-
-Google develops it's features in secret, and then releases the source afterwards.
 
 ### AOKP
 
@@ -485,3 +467,11 @@ TODO where is it?? How to turn it on?
 ## Android library project
 
 <http://stackoverflow.com/questions/23915619/android-archive-library-aar-vs-standard-jar>
+
+## fugu
+
+<http://www.androidpolice.com/2014/11/05/the-nexus-player-fugu-initial-android-5-0-factory-image-and-binaries-are-ready-to-download-now/>
+
+## Screen pinning
+
+<http://www.cnet.com/how-to/ho-to-pin-apps-in-android-5-lollipop/>

@@ -11,5 +11,13 @@ How to get and build android.
     repo init -u https://android.googlesource.com/platform/manifest
     # Get a great internet connection and free up 30GiB of disk, then:
     repo sync
+    . build/envsetup.sh
+    # Choose a target, e.g.:
+    lunch aosp_arm-eng
+    make
 
 TODO: get it running.
+
+## lunch targets
+
+`eng` suffix: http://stackoverflow.com/questions/13950589/difference-between-eng-and-user-debug-build-in-android
