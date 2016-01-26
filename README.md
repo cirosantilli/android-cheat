@@ -7,15 +7,19 @@ Tested on Android 23, Ubuntu 15.10.
     1.  Development
         1.  [android command](android-command.md)
         1.  [adb](adb.md)
-            1. [Directory structure](directory-structure.md)
-            1. [ant](ant.md)
+            1.  [Project file hierarchy](project-file-hierarchy.md)
+                1. [AndroidManifest.xml](android-manifest.md)
+            1.  [ant](ant.md)
         1.  [Gradle](gradle.md)
         1.  [Apps](apps.md)
+        1.  [SDK](sdk.md)
+        1.  [NDK](ndk.md)
     1.  Internals
-        1. [File hierarchy](file-hierarchy.md)
-1.  Examples
+        1.  [Device file hierarchy](device-file-hierarchy.md)
+1.  [Examples](examples.md)
     1. [Default](default/)
     1. [min](min/)
+    1. [Studio default](studio-default/)
 
 ## Chats
 
@@ -276,14 +280,6 @@ No JIT, full AOT is done.
 - <http://www.android-x86.org/>
 
     TODO: linked to the Intel partnership? Or that one is yet to be released?
-
-### NDK
-
-Native Development Kit.
-
-<http://developer.android.com/tools/sdk/ndk/index.html>
-
-API needed for native compiled code (e.g. from C) API.
 
 ### POSIX
 

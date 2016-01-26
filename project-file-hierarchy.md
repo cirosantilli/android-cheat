@@ -1,9 +1,10 @@
-# Directory structure
+# Project file hierarchy
 
 The directory structure of an android project.
 
 <http://stackoverflow.com/questions/4761406/complete-list-of-all-android-resource-folders>
 
+-   `AndroidManifest`: mandatory file with global configurations
 -   `res`: resources. Both configuration strings like `values/strings.xml`, and media like images and audio.
     -   `drawable-<density>`: images to render.
         -   Densities are documented at: <http://developer.android.com/guide/practices/screens_support.html>

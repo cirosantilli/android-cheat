@@ -7,12 +7,11 @@ Located under `$ANDROID_SDK/tools/android`.
 <http://developer.android.com/tools/projects/projects-cmdline.html>
 
     android create project \
-        --target 1 \
-        --name MyName \
-        --path . \
         --activity MyActivity \
+        --name MyName \
         --package com.cirosantilli.android_cheat \
-        -g
+        --path . \
+        --target 1
 
 This template contains a `build.xml` which is used to configure the ant build system.
 
@@ -24,12 +23,31 @@ This template contains a `build.xml` which is used to configure the ant build sy
 
 ## gradle
 
-`--gradle`: TODO. Requires a "Gradle template". Where can I find that?
+To create a project with a `gradlew`  se `--gradle` and `--gradle-version` as mentioned at <http://stackoverflow.com/questions/20801042/how-to-create-android-project-with-gradle-from-command-line>:
 
-- <http://stackoverflow.com/questions/20801042/how-to-create-android-project-with-gradle-from-command-line>
-- <http://stackoverflow.com/questions/17470831/how-to-use-gradle-to-generate-eclipse-and-intellij-project-files-for-android-pro>
+    android create project \
+        --activity MyActivity \
+        --gradle \
+        --gradle-version 2.8 \
+        --name MyName \
+        --package com.cirosantilli.android_cheat \
+        --path . \
+        --target 1
 
-Looks like they can be found under: `tools/templates/gradle`
+TODO: how to build that project? Getting:
+
+    FAILURE: Build failed with an exception.
+
+    * What went wrong:
+    A problem occurred configuring root project 'gradle'.
+    > Could not resolve all dependencies for configuration ':classpath'.
+       > Could not find com.android.tools.build:gradle:2.8.
+         Required by:
+             :gradle:unspecified
+
+<http://stackoverflow.com/questions/16619773/failed-to-import-new-gradle-project-failed-to-find-build-tools-revision-0-0>
+
+Looks like this template can be found under: `tools/templates/gradle`
 
 ## avd
 
@@ -49,3 +67,8 @@ TODO: from command line:
 
 - start VM
 - install VM
+
+Use SIM card on emulator:
+
+- real: <https://simhacks.github.io/android-emulator/>
+- emulated: <http://stackoverflow.com/questions/6942605/how-to-simulate-a-sim-card-for-android>

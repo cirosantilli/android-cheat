@@ -3,6 +3,7 @@
       package="com.cirosantilli.android_cheat.min"
       android:versionCode="1"
       android:versionName="1.0">
+    <uses-sdk android:minSdkVersion="22" />
     <application android:label="AndroidCheatMin">
         <activity android:name="Main">
             <intent-filter>

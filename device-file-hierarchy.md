@@ -1,4 +1,4 @@
-# File hierarchy
+# Device file hierarchy
 
 How files are organized inside the Android device.
 
