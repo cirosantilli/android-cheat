@@ -16,6 +16,8 @@ Tested on Android 23, Ubuntu 15.10.
     1.  [AOSP](aosp.md)
     1.  Internals
         1.  [Device file hierarchy](device-file-hierarchy.md)
+    1.  Mods
+        1. [CyanogenMod](cyanogenmod.md)
 1.  [Examples](examples.md)
     1. [Default](default/)
     1. [min](min/)
@@ -302,12 +304,6 @@ It seems that it is the OEM that decides when to upgrade: <http://www.trustedrev
 
 Bionic, Google-made.
 
-### SSH connect
-
-<http://stackoverflow.com/questions/11468053/how-can-i-communicate-with-an-android-device-via-ssh>
-
-Remember that Nautilus can use it: <http://askubuntu.com/questions/456669/nautilus-connect-to-server-via-ssh-no-longer-present-in-ubuntu-14-04>
-
 ### Find local device IP
 
 - <http://android.stackexchange.com/questions/2984/how-can-i-see-what-ip-address-my-android-phone-has>
@@ -330,10 +326,6 @@ Mounted under `/system`
 If you root the device, you can change it, and make a custom Android however you like.
 
 <https://www.youtube.com/watch?v=RIi4KXgZYsI&feature=iv&src_vid=AWNykj-lb-I&annotation_id=annotation_162326159>
-
-#### Cyanogenmod
-
-<http://www.cyanogenmod.org/> near stock experience.
 
 ### Desktop
 
@@ -378,6 +370,7 @@ Content policy: <https://play.google.com/about/developer-content-policy.html>
 
 ### Distribute App without Google Play
 
+- <http://android.stackexchange.com/questions/216/what-are-the-alternative-android-app-markets>
 - <http://developer.android.com/distribute/tools/open-distribution.html>
 - <http://gamedev.stackexchange.com/questions/90523/how-can-i-publish-an-android-game-without-google-play>
 
@@ -425,9 +418,7 @@ Known WIFI not available it seems:
 
 - <http://www.businessinsider.com/android-piracy-problem-2015-1>
 
-## Enter boot mode
-
-### Soft reset vs reboot
+## Soft reset vs reboot
 
 TODO?
 

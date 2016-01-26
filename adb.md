@@ -50,3 +50,13 @@ The default generated `ant` file does this with `ant debug install`.
 ## shell
 
 TODO: is this the same as SSH? If not, how?
+
+## push
+
+Push file from local filesystem into device:
+
+    adb push local_file /path/on/device/local_file
+
+## pull
+
+Contrary of `push`.

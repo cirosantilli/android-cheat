@@ -12,16 +12,13 @@ How files are organized inside the Android device.
 
 The internal SD card is partitioned and mounted as follows:
 
-- `/system` is mounted readonly and is the ROM
-- `/sdcard` internal SD card
+-   `/system` is mounted readonly and is the ROM
+    - `/system/bin`: system utilities, like `run-as`. You may not be able to run them without root.
+-   `/sdcard` internal SD card
     - `/sdcard/Music` main music location. Apps will look there by default, but on other places as well. TODO API enforced, or just convention?
     - `/sdcard/Pictures` stock pictures
     - `/sdcard/Pictures/Screenshots`
     - `/sdcard/Ringtones`
     - Play Music location: <http://android.stackexchange.com/questions/16220/where-does-google-music-store-offline-songs>
-- `/data` is called "Internal storage", and contains apps and their data
-- `/storage`
-
-Where applications are installed:
-
-- <http://android.stackexchange.com/questions/3002/where-in-the-file-system-are-applications-installed>
+-   `/data` is called "Internal storage", and contains apps and their data. <http://android.stackexchange.com/questions/3002/where-in-the-file-system-are-applications-installed>. TODO: example?
+-   `/storage`

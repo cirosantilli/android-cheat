@@ -15,6 +15,7 @@ How to get and build android.
     # Choose a target, e.g.:
     lunch aosp_arm-eng
     make
+    # Wait a very long time.
 
 TODO: get it running.
 
