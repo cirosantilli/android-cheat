@@ -4,7 +4,7 @@
       android:versionCode="1"
       android:versionName="1.0">
     <uses-sdk android:minSdkVersion="22" />
-    <application android:label="AndroidCheatMin">
+    <application android:label="Android Cheat Min">
         <activity android:name="Main">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

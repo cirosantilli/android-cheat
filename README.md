@@ -13,7 +13,6 @@ Tested on Android 23, Ubuntu 15.10.
         1.  [Gradle](gradle.md)
         1.  [Apps](apps.md)
         1.  [SDK](sdk.md)
-        1.  [NDK](ndk.md)
     1.  [AOSP](aosp.md)
     1.  Internals
         1.  [Device file hierarchy](device-file-hierarchy.md)
@@ -21,6 +20,7 @@ Tested on Android 23, Ubuntu 15.10.
     1. [Default](default/)
     1. [min](min/)
     1. [Studio default](studio-default/)
+    1. [NDK](ndk/)
 
 ## Chats
 
