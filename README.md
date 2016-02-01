@@ -26,6 +26,8 @@ Tested on Android 23, Ubuntu 15.10.
     1. [XML layout](xml-layout/)
     1. [Studio default](studio-default/)
     1. [NDK](ndk/)
+1.  Tools
+    1. [template.sh](template.sh)
 
 ## Chats
 
