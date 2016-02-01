@@ -17,7 +17,7 @@ How to get and build android.
     make
     # Wait a very long time.
 
-TODO: get it running.
+TODO: get it running. Only works on Nexus and very few other devices.
 
 ## lunch targets
 

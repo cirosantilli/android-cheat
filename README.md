@@ -13,14 +13,17 @@ Tested on Android 23, Ubuntu 15.10.
         1.  [Gradle](gradle.md)
         1.  [Apps](apps.md)
         1.  [SDK](sdk.md)
+        1.  [aapt](aapt.md)
     1.  [AOSP](aosp.md)
     1.  Internals
         1.  [Device file hierarchy](device-file-hierarchy.md)
     1.  Mods
         1. [CyanogenMod](cyanogenmod.md)
+    1.  [Google play](google-play.md)
 1.  [Examples](examples.md)
     1. [Default](default/)
     1. [min](min/)
+    1. [XML layout](xml-layout/)
     1. [Studio default](studio-default/)
     1. [NDK](ndk/)
 
@@ -275,31 +278,6 @@ No JIT, full AOT is done.
 
 Nope: <http://stackoverflow.com/questions/23318109/is-it-possible-to-use-java-8-for-android-development>
 
-### Versions
-
-Compatible platform versions are specified as a range under `AndroidManifest.xml`.
-
-<https://developer.android.com/training/basics/supporting-devices/platforms.html#sdk-versions>
-
-TODO: if you compile with a platform with level 23, can that run on a device with with level 22?
-
-### API level
-
-<https://en.wikipedia.org/wiki/Android_version_history>
-
-<http://stackoverflow.com/questions/8629687/android-api-level-vs-android-versionvuj>
-
-TODO: API level vs version, e.g. 6.0 vs version 23?
-
-#### Upgrade without OEM
-
-It seems that it is the OEM that decides when to upgrade: <http://www.trustedreviews.com/opinions/android-6-0-marshmallow-update>
-
-#### Utility replacements
-
-- `ifconfig`: `netcfg` + `ifconfig`
-- `env`: `printenv`
-
 ### libc
 
 Bionic, Google-made.
@@ -359,38 +337,6 @@ Requires root, but available on Google Store.
 Carriers may require you to pay for that if you tether from their network instead of LAN, which is why Android disables it by default.
 
 Root allows you to re-enable that.
-
-## Google play
-
-Software distribution.
-
-There is manual guideline reviewing. No test apps accepted. No porn, violence, etc. Bullshit.
-
-Content policy: <https://play.google.com/about/developer-content-policy.html>
-
-### Distribute App without Google Play
-
-- <http://android.stackexchange.com/questions/216/what-are-the-alternative-android-app-markets>
-- <http://developer.android.com/distribute/tools/open-distribution.html>
-- <http://gamedev.stackexchange.com/questions/90523/how-can-i-publish-an-android-game-without-google-play>
-
-Don't forget to enable non-Google Play sources under:
-
-    Sources > Security > Unknown sources
-
-### Google store
-
-https://en.wikipedia.org/wiki/Google_Store
-
-Sells hardware.
-
-### Publishing on Google Play
-
-You have to pay a `25$` signup fee!
-
-<https://www.quora.com/How-can-I-publish-an-Android-app-free-in-the-Google-Play-store>
-
-You need an alternative Android market. Huge list: <http://stackoverflow.com/questions/6939652/where-can-i-upload-my-android-apps-for-free>
 
 ### Issue tracker
 
@@ -466,3 +412,17 @@ TODO where is it?? How to turn it on?
 ## Screen pinning
 
 <http://www.cnet.com/how-to/ho-to-pin-apps-in-android-5-lollipop/>
+
+## Phone without battery
+
+If you link USB power cables directly to the battery energy entry points, it works: <https://www.youtube.com/watch?v=f0IuBld2lzA>
+
+## Secret codes
+
+<http://android.stackexchange.com/questions/35758/how-to-view-the-android-service-menu-secret-menu>
+
+Vary with Model, OEM and Carrier. TODO: are any built into the core?
+
+## Hardware
+
+<http://developer.android.com/guide/topics/sensors/sensors_environment.html>

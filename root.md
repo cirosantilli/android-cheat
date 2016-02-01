@@ -37,3 +37,7 @@ Kingo Root method: <https://www.youtube.com/watch?v=AWNykj-lb-I>
 Works via exploits.
 
 Once you have it, just type `su` on the SSH session or terminal emulator and go.
+
+## Sony Xperia Z3 D6643
+
+<http://forum.xda-developers.com/z3/help/how-to-proceed-d6643-model-t2960099>

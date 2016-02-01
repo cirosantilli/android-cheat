@@ -17,3 +17,7 @@ Clean build and install:
     ./gradlew clean
     ./gradlew assembleDebug
     ./gradlew installDebug
+
+## Gradle to Ant
+
+<http://stackoverflow.com/questions/4454107/how-to-convert-an-eclipse-android-project-to-use-ant-for-build>

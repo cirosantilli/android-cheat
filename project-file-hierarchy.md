@@ -17,3 +17,4 @@ The directory structure of an android project.
             There is also:
             - `drawable-ldrtl-<density>`, which stands for "layout-direction-right-to-left", e.g. Arabic and Hebrew.
     - `values/strings.xml`: `<string name="app_name">MyActivity</string>`
+-   `gen`: generated classes, e.g. `View` classes from `res/layout/mylayout.xml` files.

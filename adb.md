@@ -10,6 +10,13 @@ Three parts:
 - server that also runs on computer
 - daemon that runs on cell phone
 
+## Wireless
+
+The most common way of using ADB on a device is to plug it in with an USB cable, but that is annoying, so:
+
+- <http://stackoverflow.com/questions/2604727/how-can-i-connect-to-android-with-adb-over-tcp>
+- <http://stackoverflow.com/questions/14358882/connecting-adb-using-wifi-for-non-rooted-device>
+
 ## devices
 
 List connected devices:
@@ -45,7 +52,7 @@ Otherwise you have to specify a device with:
 
 The default generated `ant` file does this with `ant debug install`.
 
-<http://stackoverflow.com/questions/4974568/how-do-i-launch-the-android-emulator-from-the-command-line>
+Install to all devices: <http://stackoverflow.com/questions/8610733/how-can-i-adb-install-an-apk-to-multiple-connected-devices>
 
 ## shell
 
@@ -60,3 +67,58 @@ Push file from local filesystem into device:
 ## pull
 
 Contrary of `push`.
+
+## reboot
+
+    adb reboot bootloader
+    adb reboot recovery
+
+## sideload
+
+TODO
+
+## logcat
+
+`cat` a huge log of all applications:
+
+    adb logcat
+
+TODO: what exactly goes to that log. That I know of:
+
+- exception stack traces
+- `Log()` calls
+
+Output lines are of type:
+
+    E/AndroidRuntime(15141)
+
+Where:
+
+- `E` is the log severity: here Error.
+- `AndroidRuntime`: TODO: class name? Why does it show `AndroidRuntime` instead of my app?
+- `15141`: TODO: PID?
+
+Show only errors:
+
+    adb logcat '*:E'
+
+Show only warnings and errors:
+
+    adb logcat '*:W'
+
+### logcat size
+
+It is a circular buffer:
+
+- <http://stackoverflow.com/questions/6321555/what-is-the-size-limit-for-logcat>
+- <http://stackoverflow.com/questions/8888654/android-set-max-length-of-logcat-messages>
+
+It is a
+
+### Filter logs for a single application
+
+TODO: filter by a single application: <http://stackoverflow.com/questions/6854127/filter-logcat-to-get-only-the-messages-from-my-application-in-android>
+
+The PID selection solution from <http://stackoverflow.com/a/9869609/895245> should work.
+
+The easier way is to sort by tag of the `Log` class: <http://developer.android.com/reference/android/util/Log.html#d%28java.lang.String,%20java.lang.String%29>

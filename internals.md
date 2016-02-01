@@ -16,3 +16,9 @@ Browse source: <https://android.googlesource.com/> (uses gitiles, apparently als
 - ARM
 - x86
 - MIPS. See also: <http://www.androidauthority.com/nintendo-64-android-l-microcontrollers-story-mips-538596/>
+
+## App isolation
+
+Each app runs as a different user.
+
+This implies that each app runs on a different Dalvik VM: <http://android.stackexchange.com/questions/42129/why-each-android-application-runs-on-a-different-dalvik-vm-process>

@@ -6,13 +6,17 @@ Most devices have the bootloader unlocked.
 
 **WILL WIPE YOUR LOCAL PHONE DATA!** <http://android.stackexchange.com/questions/33691/why-does-unlocking-the-bootloader-wipe-phone>
 
-## Sony
+### SONY Xperia Z3 D6643
 
-Sony requires unlocking, but allows it for many phones: <http://developer.sonymobile.com/unlockbootloader/unlock-yourboot-loader/> It voids warranty.
+Sony requires unlocking on the website, but allows it for many phones: <http://developer.sonymobile.com/unlockbootloader/unlock-yourboot-loader/>x
 
-When the guide says: insert USB with sound up button clicked, it is not joking: that does put the device on a special mode. This can be seen as the status LED turns blue instead of the regular red (charging) / green (charged). It doesn't have to be at the exact same time: if you hold up and insert, it works.
+It voids warranty.
 
-TODO what is the name of this blue light mode? Is that fastboot?
+It doesn't have to be at the exact same time: if you hold up and insert, it works.
+
+TODO what is the name of this blue light mode? I think it is fastboot mode?
+
+First enter fastboot mode.
 
 Then run:
 
@@ -28,8 +32,26 @@ Now you can remove the cable, and hold at the same time:
 
 buttons. And it will enter the boot screen.
 
-## fastboot
+## fastboot mode
 
-Name of an SDK CLI tool.
+Name of an SDK CLI tool and a boot mode.
 
 <http://www.androidcentral.com/android-z-what-fastboot>
+
+TODO: what is this mode?
+
+### SONY Xperia Z3 D6643
+
+Insert computer power USB with sound up button clicked. The status LED turns blue instead of the regular red (charging) / green (charged), and the screen is blank.
+
+## recovery mode
+
+TODO adb reboot recovery does not work.
+
+### SONY Xperia Z3 D6643
+
+TODO how to enter it?
+
+Official video does not work: <https://www.youtube.com/watch?v=TFjvirit24I>
+
+Unofficial: <https://www.youtube.com/watch?v=I_E9WmBXdV0> Power + Up + Down, then release only Up and press when logo appears.

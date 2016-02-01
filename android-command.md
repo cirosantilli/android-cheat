@@ -63,7 +63,7 @@ Allows to create and start emulators.
 
 Enable hardware keyboard: <http://stackoverflow.com/questions/11235370/android-emulator-doesnt-take-keyboard-input-sdk-tools-rev-20>
 
-TODO: from command line:
+TODO: from command line: <http://stackoverflow.com/questions/4974568/how-do-i-launch-the-android-emulator-from-the-command-line>
 
 - start VM
 - install VM
