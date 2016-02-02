@@ -6,19 +6,24 @@
 #
 #     ./template.sh NewName
 #
+# Custom tempalte:
+#
+#     ./template.sh NewName OldName
 set -ex
+new="$1"
 shift
 if [ $# -gt 0 ]; then
-  base="$2"
+  old="$1"
   shift
 else
-  base='min'
+  old='Min'
 fi
 # http://stackoverflow.com/questions/28795479/awk-sed-script-to-convert-a-file-from-camelcase-to-underscores
-underscore="$(echo "$1" | sed -r -e 's/([a-z0-9])([A-Z])/\1_\L\2/g' -e 's/([A-Z])/\L\1/')" 
-cp -r "$base" "$underscore"
-cd "$underscore"
-find . -type f -print0 | xargs -0 sed -i "s/\.min/.$underscore/g"
-find . -type f -print0 | xargs -0 sed -i "s/\Min/$1/g"
+new_underscore="$(echo "$new" | sed -r -e 's/([a-z0-9])([A-Z])/\1_\L\2/g' -e 's/([A-Z])/\L\1/')" 
+old_underscore="$(echo "$old" | sed -r -e 's/([a-z0-9])([A-Z])/\1_\L\2/g' -e 's/([A-Z])/\L\1/')" 
+cp -r "$old_underscore" "$new_underscore"
+cd "$new_underscore"
+find . -type f -print0 | xargs -0 sed -i "s/\.${old_underscore}/.${new_underscore}/g"
+find . -type f -print0 | xargs -0 sed -i "s/${old}/${new}/g"
 cd 'src/com/cirosantilli/android_cheat'
-mv min "$underscore"
+mv "$old_underscore" "$new_underscore"

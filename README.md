@@ -21,11 +21,14 @@ Tested on Android 23, Ubuntu 15.10.
         1. [CyanogenMod](cyanogenmod.md)
     1.  [Google play](google-play.md)
 1.  [Examples](examples.md)
-    1. [Default](default/)
-    1. [min](min/)
-    1. [XML layout](xml-layout/)
-    1. [Studio default](studio-default/)
-    1. [NDK](ndk/)
+    1.  [Default](default/)
+    1.  [min](min/)
+    1.  UI
+        1. [Button](button/)
+        1. [Toast](toast/)
+    1.  [XML layout](xml-layout/)
+    1.  [Studio default](studio-default/)
+    1.  [NDK](ndk/)
 1.  Tools
     1. [template.sh](template.sh)
 
