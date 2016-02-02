@@ -48,6 +48,10 @@ Minimal example of how to use an XML layout in `res/layouts/main.xml`.
 
 More information at: <http://developer.android.com/guide/topics/resources/layout-resource.html>
 
-Layout resources generate `View` classes accessible through `R`, which can then be fed into `setContent`.
+Layout resources generate `View` and other classes accessible through `R`, which can then be fed into `setContent`.
 
 The generated classes are put under `gen/`.
+
+It is a pain to manage layout classes manually: the XML method exists mostly because it is easier to generate that from GUI tools than to manipulate Java code. Yuck.
+
+All of those classes can also be created manually to generate the same effect.

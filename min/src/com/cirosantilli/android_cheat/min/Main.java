@@ -5,10 +5,6 @@ import android.os.Bundle;
 import android.widget.TextView;
 
 public class Main extends Activity {
-
-    /* (non-Javadoc)
-     * @see android.app.Activity#onCreate(android.os.Bundle)
-     */
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
