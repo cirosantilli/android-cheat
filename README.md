@@ -1,5 +1,7 @@
 # Android Cheat
 
+Minimal Android examples.
+
 Tested on Android 23, Ubuntu 15.10.
 
 1.  Theory
@@ -27,6 +29,7 @@ Tested on Android 23, Ubuntu 15.10.
         1.  ViewGroup
             1. [RelativeLayout](relative_layout/)
             1. [LinearLayout](linear_layout/)
+        1. [ImageView](image_view/)
         1. [Button](button/)
         1. [Toast](toast/)
     1.  [XML layout](xml_layout/)

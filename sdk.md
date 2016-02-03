@@ -6,8 +6,10 @@ Software Development Kit.
 
 -   `samples/android-XX`. Sample projects. Note that even in `android-XX`, you may need to install an older Android YY for them to work.
 
-    Those projects are gradle based, so you can either run them with with Android Studio or standard gradle CLI commands.
+    Those projects are Gradle based, so you can either run them with with Android Studio or standard Gradle CLI commands.
 
     TODO: many sample apps fail to build with: "failed to find Build Tools revision 22.0.0". How to solve it?
 
     TODO: some apps die with "Unfortunately your app has stopped". On Android 22, camera apps failed.
+
+    Many (all) of the samples can be found under: <https://github.com/googlesamples>, some grouped in a single repository, others in dedicated repositories. 

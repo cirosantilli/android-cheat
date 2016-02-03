@@ -11,3 +11,7 @@
 ## How to do vendor specific tasks for tons of models
 
 - <http://www.hardreset.info/>
+
+## Samples
+
+-   <https://github.com/googlesamples?utf8=%E2%9C%93&query=android>

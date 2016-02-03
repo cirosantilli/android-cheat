@@ -13,7 +13,6 @@ public class Main extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         this.i = 0;
-        final LinearLayout linearLayout = new LinearLayout(this);
 
         final TextView tv = new TextView(this);
         tv.setText(String.format("%d", this.i));
@@ -28,9 +27,9 @@ public class Main extends Activity {
             }
         });
 
+        final LinearLayout linearLayout = new LinearLayout(this);
         linearLayout.addView(button);
         linearLayout.addView(tv);
         this.setContentView(linearLayout);
     }
-
 }

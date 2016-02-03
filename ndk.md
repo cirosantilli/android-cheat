@@ -38,3 +38,5 @@ Build as:
     ant clean
     ant debug
     ant installd
+
+More samples at: <https://github.com/googlesamples/android-ndk>
