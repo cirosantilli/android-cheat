@@ -24,10 +24,11 @@ Tested on Android 23, Ubuntu 15.10.
     1.  [Default](default/)
     1.  [min](min/)
     1.  UI
+        1.  ViewGroup
+            1. [RelativeLayout](relative_layout/)
+            1. [LinearLayout](linear_layout/)
         1. [Button](button/)
         1. [Toast](toast/)
-        1. [RelativeLayout](relative_layout/)
-        1. [LinearLayout](linear_layout/)
     1.  [XML layout](xml_layout/)
     1.  [Studio default](studio-default/)
     1.  [NDK](ndk/)
