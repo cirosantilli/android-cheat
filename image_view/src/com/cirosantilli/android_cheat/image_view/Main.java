@@ -13,5 +13,4 @@ public class Main extends Activity {
         imageView.setImageResource(R.drawable.flower);
         setContentView(imageView);
     }
-
 }

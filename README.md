@@ -22,6 +22,7 @@ Tested on Android 23, Ubuntu 15.10.
     1.  Mods
         1. [CyanogenMod](cyanogenmod.md)
     1.  [Google play](google-play.md)
+    1.  [Open source](open-source.md)
 1.  [Examples](examples.md)
     1.  [Default](default/)
     1.  [min](min/)
@@ -30,6 +31,7 @@ Tested on Android 23, Ubuntu 15.10.
             1. [RelativeLayout](relative_layout/)
             1. [LinearLayout](linear_layout/)
         1. [ImageView](image_view/)
+        1. [VideoView](video_view/)
         1. [Button](button/)
         1. [Toast](toast/)
     1.  [XML layout](xml_layout/)

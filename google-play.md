@@ -29,3 +29,7 @@ You have to pay a `25$` signup fee!
 <https://www.quora.com/How-can-I-publish-an-Android-app-free-in-the-Google-Play-store>
 
 You need an alternative Android market. Huge list: <http://stackoverflow.com/questions/6939652/where-can-i-upload-my-android-apps-for-free>
+
+## Close source
+
+Of course, like the rest. Major FOSS alternative 2016: F-Droid.

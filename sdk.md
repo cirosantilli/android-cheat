@@ -12,4 +12,4 @@ Software Development Kit.
 
     TODO: some apps die with "Unfortunately your app has stopped". On Android 22, camera apps failed.
 
-    Many (all) of the samples can be found under: <https://github.com/googlesamples>, some grouped in a single repository, others in dedicated repositories. 
+    Many (all) of the samples can be found under: <https://github.com/googlesamples>, some grouped in a single repository, others in dedicated repositories. GitHub presence is mentioned at <http://developer.android.com/samples/index.html>
