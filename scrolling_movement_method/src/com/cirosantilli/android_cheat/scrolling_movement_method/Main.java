@@ -2,8 +2,8 @@ package com.cirosantilli.android_cheat.scrolling_movement_method;
 
 import android.app.Activity;
 import android.os.Bundle;
-import android.widget.TextView;
 import android.text.method.ScrollingMovementMethod;
+import android.widget.TextView;
 
 public class Main extends Activity {
     @Override

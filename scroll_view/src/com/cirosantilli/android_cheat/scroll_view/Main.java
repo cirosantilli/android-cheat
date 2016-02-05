@@ -1,7 +1,8 @@
-package com.cirosantilli.android_cheat.text_view_newline;
+package com.cirosantilli.android_cheat.scroll_view;
 
 import android.app.Activity;
 import android.os.Bundle;
+import android.widget.ScrollView;
 import android.widget.TextView;
 
 public class Main extends Activity {
@@ -13,6 +14,8 @@ public class Main extends Activity {
         for (int i = 0; i < 100; i++)
             sb.append(Integer.toString(i) + "\n");
         tv.setText(sb.toString());
-        setContentView(tv);
+        ScrollView sv = new ScrollView(this);
+        sv.addView(tv);
+        setContentView(sv);
     }
 }
