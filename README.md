@@ -19,6 +19,8 @@ Tested on Android 23, Ubuntu 15.10.
         1.  [VideoView](video_view/)
         1.  [Button](button/)
         1.  [Toast](toast/)
+        1.  [Fragment](fragment/)
+            1. TODO: more interesting multi-fragment example.
         1.  [Background jobs](background-jobs.md)
             1. [Handler](handler/)
     1.  [XML layout](xml_layout/)
