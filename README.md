@@ -9,6 +9,8 @@ Tested on Android 23, Ubuntu 15.10.
     1.  [Default](default/)
     1.  [min](min/)
     1.  UI
+        1.  [TextView newline](text_view_newline/)
+            1.  [ScrollingMovementMethod](scrolling_movement_method/)
         1.  ViewGroup
             1. [RelativeLayout](relative_layout/)
             1. [LinearLayout](linear_layout/)
