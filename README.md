@@ -9,15 +9,22 @@ Tested on Android 23, Ubuntu 15.10.
     1.  [Default](default/)
     1.  [min](min/)
     1.  UI
-        1.  [TextView newline](text_view_newline/)
-            1.  [ScrollView](scroll_view/)
-            1.  [ScrollingMovementMethod](scrolling_movement_method/)
-        1.  ViewGroup
-            1. [RelativeLayout](relative_layout/)
-            1. [LinearLayout](linear_layout/)
-        1.  [ImageView](image_view/)
-        1.  [VideoView](video_view/)
-        1.  [Button](button/)
+        1.  View
+            1.  [TextView newline](text_view_newline/)
+                1.  [ScrollView](scroll_view/)
+                1.  [ScrollingMovementMethod](scrolling_movement_method/)
+                1.  [EditText](edit_text/)
+                    1.  [EditText.getText](edit_text_get_text/)
+                1.  [Button](button/)
+                1.  [setTextColor](set_text_color/)
+            1.  [setBackgroundColor](set_background_color/)
+            1.  [setLayoutParams](set_layout_params/)
+                1.  [setLayoutParams LinearLayout](set_layout_params_linear_layout/)
+            1.  ViewGroup
+                1. [RelativeLayout](relative_layout/)
+                1. [LinearLayout](linear_layout/)
+            1.  [ImageView](image_view/)
+            1.  [VideoView](video_view/)
         1.  [Toast](toast/)
         1.  [Fragment](fragment/)
             1. TODO: more interesting multi-fragment example.

@@ -21,4 +21,4 @@ TODO: get it running. Only works on Nexus and very few other devices.
 
 ## lunch targets
 
-`eng` suffix: http://stackoverflow.com/questions/13950589/difference-between-eng-and-user-debug-build-in-android
+`eng` suffix: <http://stackoverflow.com/questions/13950589/difference-between-eng-and-user-debug-build-in-android>
