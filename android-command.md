@@ -18,9 +18,13 @@ As of Android 22, "Extras" are not included by default on the Java search path o
 
 This includes the `support` library, which is used on the default IDE Gradle template. Oh, such a lacking CLI-only support...
 
+### support libraries on ant build
+
 - <http://stackoverflow.com/questions/17659624/how-to-correctly-include-the-support-library-in-non-eclipse-android-application>
 - <http://stackoverflow.com/questions/18302757/using-android-support-libraries-w-o-an-ide>
 - <http://stackoverflow.com/questions/18525408/how-to-add-android-libraries-with-resources-without-using-eclipse>
+
+Copy pasting the Jar from the SDK to under `lib/` works.
 
 ## create project
 

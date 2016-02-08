@@ -21,3 +21,7 @@ Clean build and install:
 ## Gradle to Ant
 
 <http://stackoverflow.com/questions/4454107/how-to-convert-an-eclipse-android-project-to-use-ant-for-build>
+
+## Select device
+
+Impossible apparently: <http://stackoverflow.com/questions/23960667/running-gradles-connectedandroidtest-on-a-specific-device>

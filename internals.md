@@ -7,6 +7,8 @@ Find Linux kernel version:
 
 Usage data: <https://en.wikipedia.org/wiki/Android_version_history#/media/File:Android_historical_version_distribution_-_vector.svg>
 
+Bugs and feature requests: <https://code.google.com/p/android/issues/list>
+
 Pull requests: <https://android-review.googlesource.com> (uses Gerrit which was created for Android)
 
 Browse source: <https://android.googlesource.com/> (uses gitiles, apparently also created for Android?)

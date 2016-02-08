@@ -12,6 +12,9 @@ public class Main extends Activity {
         final TextView tv = new TextView(this);
         tv.setText("hello world");
         tv.setTextColor(Color.RED);
+
+        final LinearLayout linearLayout = new LinearLayout(this);
+
         setContentView(tv);
     }
 }

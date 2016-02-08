@@ -11,6 +11,8 @@ Tested on Android 23, Ubuntu 15.10.
     1.  UI
         1.  View
             1.  [TextView newline](text_view_newline/)
+                1.  [TextView bold](text_view_bold/)
+                1.  [TextView hyperlink](text_view_hyperlink/)
                 1.  [ScrollView](scroll_view/)
                 1.  [ScrollingMovementMethod](scrolling_movement_method/)
                 1.  [EditText](edit_text/)
@@ -25,6 +27,7 @@ Tested on Android 23, Ubuntu 15.10.
                 1. [LinearLayout](linear_layout/)
             1.  [ImageView](image_view/)
             1.  [VideoView](video_view/)
+        1.  [Notification](notification/)
         1.  [Toast](toast/)
         1.  [Fragment](fragment/)
             1. TODO: more interesting multi-fragment example.
@@ -46,7 +49,9 @@ Tested on Android 23, Ubuntu 15.10.
         1.  [SDK](sdk.md)
         1.  [aapt](aapt.md)
     1.  [AOSP](aosp.md)
-    1.  Internals
+    1.  [Desktop](desktop.md)
+    1.  [Internals](internals.md)
+        1. [Build](build.md)
         1.  [Device file hierarchy](device-file-hierarchy.md)
     1.  Mods
         1. [CyanogenMod](cyanogenmod.md)
@@ -333,13 +338,6 @@ If you root the device, you can change it, and make a custom Android however you
 
 <https://www.youtube.com/watch?v=RIi4KXgZYsI&feature=iv&src_vid=AWNykj-lb-I&annotation_id=annotation_162326159>
 
-### Desktop
-
-Kill Windows.
-
-- http://www.zdnet.com/article/could-an-android-desktop-replace-your-windows-pc/
-- http://www.howtogeek.com/184840/you-can-now-buy-android-desktop-pcs-and-laptops-but-should-you/
-
 ### Installed PATH utilities
 
 - <http://android.stackexchange.com/questions/2149/where-can-i-find-documentation-for-shell-commands>
@@ -365,12 +363,6 @@ Requires root, but available on Google Store.
 Carriers may require you to pay for that if you tether from their network instead of LAN, which is why Android disables it by default.
 
 Root allows you to re-enable that.
-
-### Issue tracker
-
-### Feature requests
-
-<https://code.google.com/p/android/issues/list>
 
 ### HBOOT
 
