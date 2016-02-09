@@ -27,6 +27,7 @@ Tested on Android 23, Ubuntu 15.10.
                 1. [LinearLayout](linear_layout/)
             1.  [ImageView](image_view/)
             1.  [VideoView](video_view/)
+        1.  [Two activities](two_activities)
         1.  [Notification](notification/)
         1.  [Toast](toast/)
         1.  [Fragment](fragment/)
