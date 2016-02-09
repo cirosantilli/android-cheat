@@ -37,6 +37,7 @@ public class Main extends Activity {
                         .setSmallIcon(android.R.drawable.star_on)
                         // Color of the background on which the alpha image wil drawn white.
                         .setColor(Color.RED)
+                        .setLights(Color.MAGENTA, 500, 2000)
                         .build();
                 final NotificationManager notificationManager =
                         (NotificationManager)getSystemService(Context.NOTIFICATION_SERVICE);
