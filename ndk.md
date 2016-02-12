@@ -4,14 +4,13 @@ Native Development Kit.
 
 <http://developer.android.com/tools/sdk/ndk/index.html>
 
-Docs: <http://developer.android.com/ndk/index.html>
-
-
 API needed for native compiled code (e.g. from C) API.
 
 API is exactly like regular JNI, which you should learn first, e.g. at <https://github.com/cirosantilli/java-cheat/tree/91caa12e8e4e468441539fe394e5ceb1d09007aa/jni>
 
 Alternative: RenderScript <http://www.developer.com/ws/android/development-tools/writing-native-android-code-ndk-vs.-renderscript.html> TODO vs.
+
+## Docs
 
 ## API reference
 

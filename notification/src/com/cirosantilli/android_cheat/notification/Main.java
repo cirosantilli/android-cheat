@@ -39,9 +39,10 @@ public class Main extends Activity {
                         .setColor(Color.RED)
                         .setLights(Color.MAGENTA, 500, 2000)
                         .build();
-                final NotificationManager notificationManager =
-                        (NotificationManager)getSystemService(Context.NOTIFICATION_SERVICE);
-                notificationManager.notify(Main.this.i, notification);
+                // Flags can be set like this.
+                //notification.flags |= Notification.FLAG_ONGOING_EVENT;
+                ((NotificationManager)getSystemService(Context.NOTIFICATION_SERVICE))
+                        .notify(Main.this.i, notification);
                 // If the same ID were used twice, the second notification would replace the first one. 
                 //notificationManager.notify(0, notification);
                 Main.this.i++;

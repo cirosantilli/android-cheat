@@ -25,8 +25,12 @@ Tested on Android 23, Ubuntu 15.10.
             1.  ViewGroup
                 1. [RelativeLayout](relative_layout/)
                 1. [LinearLayout](linear_layout/)
-            1.  [ImageView](image_view/)
-            1.  [VideoView](video_view/)
+            1.  Media
+                1.  [ImageView](image_view/)
+                1.  [VideoView](video_view/)
+            1.  Screen
+                1.  [Fullscreen](fullscreen/)
+                1.  [Portrait](portrait/)
         1.  Activities
             1.  [Two activities](two_activities/)
             1.  [Activity lifecycle](activity_lifecycle/)
@@ -43,6 +47,10 @@ Tested on Android 23, Ubuntu 15.10.
 1.  Theory
     1.  [Root](root.md)
     1.  Development
+        1.  [Build](build.md)
+        1.  [Contribute to AOSP](contribute-to-aosp.md)
+        1.  [Internals](internals.md)
+            1.  [Device file hierarchy](device-file-hierarchy.md)
         1.  [android command](android-command.md)
         1.  [adb](adb.md)
             1.  [Project file hierarchy](project-file-hierarchy.md)
@@ -52,15 +60,14 @@ Tested on Android 23, Ubuntu 15.10.
         1.  [Apps](apps.md)
         1.  [SDK](sdk.md)
         1.  [aapt](aapt.md)
+        1.  [Studio](studio.md)
     1.  [AOSP](aosp.md)
     1.  [Desktop](desktop.md)
-    1.  [Internals](internals.md)
-        1. [Build](build.md)
-        1.  [Device file hierarchy](device-file-hierarchy.md)
     1.  Mods
         1. [CyanogenMod](cyanogenmod.md)
     1.  [Google play](google-play.md)
     1.  [Open source](open-source.md)
+    1.  [Trivia](trivia.md)
 1.  Tools
     1. [template.sh](template.sh)
 
