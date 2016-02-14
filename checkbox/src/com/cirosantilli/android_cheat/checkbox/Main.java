@@ -17,18 +17,21 @@ public class Main extends Activity {
         final CheckBox checkBox0 = new CheckBox(this);
         final CheckBox checkBox1 = new CheckBox(this);
 
-        textView.setText(getText(checkBox0, checkBox1));
+        textView.setText(this.getText(checkBox0, checkBox1));
 
         class OnClickListener implements View.OnClickListener {
             @Override
             public void onClick(View view) {
-                textView.setText(getText(checkBox0, checkBox1));
+                textView.setText(Main.this.getText(checkBox0, checkBox1));
             }
         }
         checkBox0.setOnClickListener(new OnClickListener());
+        checkBox0.setText("0");
         checkBox1.setOnClickListener(new OnClickListener());
+        checkBox1.setText("1");
 
         final LinearLayout linearLayout = new LinearLayout(this);
+        linearLayout.setOrientation(LinearLayout.VERTICAL);
         linearLayout.addView(checkBox0);
         linearLayout.addView(checkBox1);
         linearLayout.addView(textView);

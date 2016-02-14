@@ -19,6 +19,7 @@ Tested on Android 23, Ubuntu 15.10.
                     1.  [EditText.getText](edit_text_get_text/)
                 1.  [Button](button/)
                     1.  [Checkbox](checkbox/)
+                    1.  [RadioButton](radio_button/)
                 1.  [setTextColor](set_text_color/)
             1.  [setBackgroundColor](set_background_color/)
             1.  [setLayoutParams](set_layout_params/)
@@ -74,6 +75,8 @@ Tested on Android 23, Ubuntu 15.10.
     1.  [Trivia](trivia.md)
 1.  Tools
     1. [template.sh](template.sh)
+1.  Hardware
+    1. [Fingerprint sensor](fingerprint-sensor.md)
 
 ## Chats
 

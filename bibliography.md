@@ -15,3 +15,5 @@
 ## Samples
 
 -   <https://github.com/googlesamples?utf8=%E2%9C%93&query=android>
+
+-   <https://github.com/commonsguy/cw-omnibus>, by Android monster <http://stackoverflow.com/users/115145/commonsware>
