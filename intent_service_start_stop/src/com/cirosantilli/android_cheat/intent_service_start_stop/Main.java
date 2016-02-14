@@ -111,5 +111,4 @@ public class Main extends Activity {
             super.onDestroy();
         }
     }
-
 }

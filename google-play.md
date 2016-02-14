@@ -8,9 +8,17 @@ There is manual guideline reviewing. No test apps accepted. No porn, violence, e
 
 Content policy: <https://play.google.com/about/developer-content-policy.html>
 
+## Fees
+
+One time 25\$ per app store account.
+
+Then **30%** of app sales an in-app purchases.
+
 ## Statistics
 
 How many apps: <http://www.statista.com/statistics/266210/number-of-available-applications-in-the-google-play-store/>
+
+How many devs: 150,000 in 2013, developers responsible for over 800,000 apps, 900M payout for the year.
 
 ## Distribute App without Google Play
 

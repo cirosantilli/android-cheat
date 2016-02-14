@@ -1,0 +1,3 @@
+# Checkbox
+
+Inherits button.
