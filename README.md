@@ -40,7 +40,10 @@ Tested on Android 23, Ubuntu 15.10.
         1.  [Fragment](fragment/)
             1. TODO: more interesting multi-fragment example.
         1.  [Background jobs](background-jobs.md)
-            1. [Handler](handler/)
+            1.  [Handler](handler/)
+            1.  [IntentService](intent_service/)
+                1.  [IntentService TextView](intent_service_text_view/)
+                1.  [IntentService start stop](intent_service_start_stop/)
     1.  [XML layout](xml_layout/)
     1.  [Studio default](studio-default/)
     1.  [NDK](ndk/)
