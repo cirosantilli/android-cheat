@@ -17,7 +17,7 @@ public class Main extends Activity {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        Button button = new Button(this);
+        final Button button = new Button(this);
         button.setText("click me to take picture");
         button.setOnClickListener(new View.OnClickListener() {
             @Override

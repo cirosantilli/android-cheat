@@ -52,6 +52,8 @@ Tested on Android 23, Ubuntu 15.10.
             1.  [IntentService start stop](intent_service_start_stop/)
     1.  Hardware
         1.  [Camera](camera/)
+            1.  [Camera one shot](camera_one_shot/)
+            1.  [Camera preview video](camera_preview_video/)
     1.  [Location](location.md)
     1.  [NDK](ndk/)
 1.  Theory
