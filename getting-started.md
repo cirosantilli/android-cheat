@@ -6,6 +6,13 @@ Step by step to get your first application up and running on the emulator and a 
 
 <http://askubuntu.com/questions/318246/complete-installation-guide-for-android-sdk-adt-bundle-on-ubuntu/732010#732010>
 
+Then:
+
+- copy paste to satisfy all symlinks under `min/libs`
+- the required files / directories will be under `<sdk>/extras`, use `find` or `locate`
+- for the directories, `cd` into them, and run `android update project -p . -t android-22`
+- yes, this is a horrible step, but we don't have a much better solution yet
+
 ## Run demos
 
 Once you are setup, chose a project directory to run like `min` and:

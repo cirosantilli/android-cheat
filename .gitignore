@@ -2,4 +2,5 @@ bin/
 gen/
 libs/
 obj/
+google-play-services_lib
 *.jar

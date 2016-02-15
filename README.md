@@ -41,11 +41,12 @@ Tested on Android 23, Ubuntu 15.10.
         1.  [Toast](toast/)
         1.  [Fragment](fragment/)
             1. TODO: more interesting multi-fragment example.
-        1.  [Background jobs](background-jobs.md)
-            1.  [Handler](handler/)
-            1.  [IntentService](intent_service/)
-                1.  [IntentService TextView](intent_service_text_view/)
-                1.  [IntentService start stop](intent_service_start_stop/)
+    1.  [Background jobs](background-jobs.md)
+        1.  [Handler](handler/)
+        1.  [IntentService](intent_service/)
+            1.  [IntentService TextView](intent_service_text_view/)
+            1.  [IntentService start stop](intent_service_start_stop/)
+    1.  [Location](location.md)
     1.  [XML layout](xml_layout/)
     1.  [Studio default](studio-default/)
     1.  [NDK](ndk/)
@@ -134,18 +135,6 @@ The staircase icon shows the strength of the wide LAN.
 Turn off: <http://www.gadgetdaily.xyz/quick-tip-how-to-turn-off-data-roaming-on-android/>
 
 On 5.1, the "Mobile data" is also present on the default settings bar. It clearly explains that internet connection is gone unless you have Wifi.
-
-## GPS
-
-## Location
-
-Most android smartphones have a GPS receiver. This is for examples why Google Maps can work even without WIFI.
-
-GPS is not the only way to find your location: <http://android.stackexchange.com/questions/15009/how-does-google-maps-estimate-my-location-without-gps#>
-
-Google has a private database of WIFI IDs, which it correlates to location by crowd-sourcing.
-
-Turn off: Settings > Location. Does not seem possible to turn off just the GPS: Wifi tracking must be turned off as well. But it shows energy usage per app (power hog?), to it's fine.
 
 ## UI
 
