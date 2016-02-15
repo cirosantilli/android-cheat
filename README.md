@@ -8,7 +8,9 @@ Tested on Android 23, Ubuntu 15.10.
 1.  [Examples](examples.md)
     1.  [Default](default/)
     1.  [min](min/)
+    1.  [Studio default](studio-default/)
     1.  UI
+        1.  [XML layout](xml_layout/)
         1.  View
             1.  [TextView newline](text_view_newline/)
                 1.  [TextView bold](text_view_bold/)
@@ -25,8 +27,8 @@ Tested on Android 23, Ubuntu 15.10.
             1.  [setLayoutParams](set_layout_params/)
                 1.  [setLayoutParams LinearLayout](set_layout_params_linear_layout/)
             1.  ViewGroup
-                1. [RelativeLayout](relative_layout/)
-                1. [LinearLayout](linear_layout/)
+                1.  [RelativeLayout](relative_layout/)
+                1.  [LinearLayout](linear_layout/)
             1.  Media
                 1.  [ImageView](image_view/)
                 1.  [VideoView](video_view/)
@@ -41,14 +43,15 @@ Tested on Android 23, Ubuntu 15.10.
         1.  [Toast](toast/)
         1.  [Fragment](fragment/)
             1. TODO: more interesting multi-fragment example.
+        1.  Hardware
     1.  [Background jobs](background-jobs.md)
         1.  [Handler](handler/)
         1.  [IntentService](intent_service/)
             1.  [IntentService TextView](intent_service_text_view/)
             1.  [IntentService start stop](intent_service_start_stop/)
+    1.  Hardware
+        1.  [Camera](camera/)
     1.  [Location](location.md)
-    1.  [XML layout](xml_layout/)
-    1.  [Studio default](studio-default/)
     1.  [NDK](ndk/)
 1.  Theory
     1.  [Root](root.md)
