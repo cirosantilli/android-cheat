@@ -18,6 +18,8 @@ Then:
 Once you are setup, chose a project directory to run like `min` and:
 
     cd min
+    # If project uses NDK.
+    ndk-build
     ant clean
     ant debug
     ant installd

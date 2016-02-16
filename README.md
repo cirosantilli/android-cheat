@@ -56,6 +56,8 @@ Tested on Android 23, Ubuntu 15.10.
             1.  [Camera preview video](camera_preview_video/)
     1.  [Location](location.md)
     1.  [NDK](ndk/)
+        1.  [NDK ABI](ndk_abi/)
+        1.  [NDK log](ndk_log/)
 1.  Theory
     1.  [Root](root.md)
     1.  Development

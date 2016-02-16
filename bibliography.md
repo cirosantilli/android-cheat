@@ -2,11 +2,16 @@
 
 ## Official
 
-- <http://developer.android.com/reference/packages.html>: API Javadoc
+-   <http://developer.android.com/reference/packages.html>: API Javadoc
 
-- <http://tools.android.com/>
+-   <http://tools.android.com/>
 
-- <https://source.android.com/>
+-   <https://source.android.com/>, specially:
+
+    - <http://source.android.com/devices/index.html>
+    - <http://source.android.com/security/index.html>
+
+    which don't have to do about the source directly, but really how to use it.
 
 ## How to do vendor specific tasks for tons of models
 
