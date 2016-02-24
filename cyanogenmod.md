@@ -8,6 +8,11 @@ Near stock experience.
 
 Aims to take Android away from Google and make it even more open.
 
+## Vs AOSP
+
+- <https://www.quora.com/What-are-the-main-differences-between-stock-Android-and-CyanogenMod>
+- <http://forum.xda-developers.com/nexus-4/help/cm-vs-aosp-t2244613>
+
 ## History
 
 Created by <https://www.linkedin.com/in/stevekondik>, got some VC money in 2013, and started a company. TODO how do they make money?

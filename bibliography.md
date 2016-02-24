@@ -19,6 +19,12 @@
 
 ## Samples
 
--   <https://github.com/googlesamples?utf8=%E2%9C%93&query=android>
+Official:
+
+-   <https://github.com/googlesamples?utf8=%E2%9C%93&query=android>, present under `<sdk>/samples/android-XX` and <http://developer.android.com/samples/index.html>
+
+    - `BasicMediaDecoder`: click play to show an `.mp4` H.264 / AAC video decoded on screen. The timing is horrible, with lots of breaks. And when the short video ends, an exception is raised.
+
+Third-party:
 
 -   <https://github.com/commonsguy/cw-omnibus>, by Android monster <http://stackoverflow.com/users/115145/commonsware>

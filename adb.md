@@ -79,9 +79,13 @@ TODO
 
 ## logcat
 
-`cat` a huge log of all applications:
+`tail -f` a huge log of all applications:
 
     adb logcat
+
+`cat` it instead of `tail -f`:
+
+    adb logcat -d
 
 TODO: what exactly goes to that log. That I know of:
 

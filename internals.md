@@ -18,3 +18,8 @@ Version usage data: <https://en.wikipedia.org/wiki/Android_version_history#/medi
 Each app runs as a different user.
 
 This implies that each app runs on a different Dalvik VM: <http://android.stackexchange.com/questions/42129/why-each-android-application-runs-on-a-different-dalvik-vm-process>
+
+## Zygote
+
+- <https://anatomyofandroid.com/2013/10/15/zygote/>
+- <http://android.stackexchange.com/questions/77271/what-is-the-zygote-process-still-doing-in-android-l>

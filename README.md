@@ -54,10 +54,17 @@ Tested on Android 23, Ubuntu 15.10.
         1.  [Camera](camera/)
             1.  [Camera one shot](camera_one_shot/)
             1.  [Camera preview video](camera_preview_video/)
-    1.  [Location](location.md)
+    1.  [Location theory](location.md)
+        1. [Location](location/)
     1.  [NDK](ndk/)
         1.  [NDK ABI](ndk_abi/)
         1.  [NDK log](ndk_log/)
+        1.  [Native codec minimized](native_codec_minimized/)
+    1.  CLI device tools
+        1.  [netcfg](netcfg.md)
+        1.  [dumpsys](dumpsys.md)
+        1.  getprop TODO
+        1.  wm TODO
 1.  Theory
     1.  [Root](root.md)
     1.  Development
@@ -77,11 +84,15 @@ Tested on Android 23, Ubuntu 15.10.
         1.  [Studio](studio.md)
     1.  [AOSP](aosp.md)
     1.  [Desktop](desktop.md)
+        1. [POSIX](posix.md)
+    1.  [Monitor app power consumption](monitor-app-power-consumption.md)
     1.  Mods
         1. [CyanogenMod](cyanogenmod.md)
+        1. [AOKP](aokp.md)
     1.  [Google play](google-play.md)
     1.  [Open source](open-source.md)
     1.  [Trivia](trivia.md)
+    1.  [GPU](gpu.md)
 1.  Tools
     1. [template.sh](template.sh)
 1.  Hardware
@@ -316,12 +327,6 @@ No JIT, full AOT is done.
 
     TODO: linked to the Intel partnership? Or that one is yet to be released?
 
-### POSIX
-
-- <http://stackoverflow.com/questions/27604455/is-android-posix-compatible>
-- <http://unix.stackexchange.com/questions/146971/is-android-compatible-with-the-linux-standard-base>
-- <http://stackoverflow.com/questions/12111640/android-ndk-and-posix-functions>
-
 ### Java 8
 
 Nope: <http://stackoverflow.com/questions/23318109/is-it-possible-to-use-java-8-for-android-development>
@@ -329,17 +334,6 @@ Nope: <http://stackoverflow.com/questions/23318109/is-it-possible-to-use-java-8-
 ### libc
 
 Bionic, Google-made.
-
-### Find local device IP
-
-- <http://android.stackexchange.com/questions/2984/how-can-i-see-what-ip-address-my-android-phone-has>
-- <http://android.stackexchange.com/questions/3715/is-there-a-command-or-application-similar-to-ipconfig>
-
-Best method:
-
-    netcfg
-
-from a terminal emulator app.
 
 ### ROM
 

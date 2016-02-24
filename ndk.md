@@ -18,7 +18,9 @@ Very incomplete at: <http://developer.android.com/ndk/reference/index.html>
 
 E.g.: `<android/log.h>` is not there, but it is mentioned at: <http://developer.android.com/ndk/guides/stable_apis.html>
 
-<http://stackoverflow.com/questions/4638778/ndk-api-reference-docs> says that headers under `$ANDROID_NDK/platform/android-$VERSION/$ARCH/usr/include` have a lot of documentation comments which you should rely on instead, which is true.
+<http://stackoverflow.com/questions/4638778/ndk-api-reference-docs> says that headers under `<ndk>/platform/android-$VERSION/$ARCH/usr/include` have a lot of documentation comments which you should rely on instead, which is true.
+
+The actual implementation `.cpp` files seem to be scattered under `<ndk>/frameworks` of the AOSP. Use `find`.
 
 ## Versions
 
