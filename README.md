@@ -50,6 +50,7 @@ Tested on Android 23, Ubuntu 15.10.
         1.  [IntentService](intent_service/)
             1.  [IntentService TextView](intent_service_text_view/)
             1.  [IntentService start stop](intent_service_start_stop/)
+    1.  [Socket](socket/)
     1.  Hardware
         1.  [Camera](camera/)
             1.  [Camera one shot](camera_one_shot/)
@@ -93,6 +94,7 @@ Tested on Android 23, Ubuntu 15.10.
     1.  [Open source](open-source.md)
     1.  [Trivia](trivia.md)
     1.  [GPU](gpu.md)
+    1.  [Security](security.md)
 1.  Tools
     1. [template.sh](template.sh)
 1.  Hardware

@@ -15,6 +15,7 @@ public class Main extends Activity {
         Log.v("MyTag", "MyMsg");
         Log.w("MyTag", "MyMsg");
         Log.wtf("MyTag", "MyMsg");
+        /* No printf: http://stackoverflow.com/questions/4491370/how-to-log-an-int-on-android */
     }
 
 }

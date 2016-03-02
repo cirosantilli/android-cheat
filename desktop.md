@@ -22,3 +22,20 @@ Mouse and keyboard:
 ## BusyBox
 
 - <https://play.google.com/store/apps/details?id=ru.meefik.busybox&hl=en>
+
+## FFmpeg
+
+- <https://github.com/appunite/AndroidFFmpeg>
+- <https://ring.cx/> uses it
+- <http://stackoverflow.com/questions/5337833/ffmpeg-on-android-undefined-references-to-libavcodec-functions-although-it-is>
+- <https://www.quora.com/What-are-the-steps-for-integrating-FFMPEG-on-Android>
+- <http://stackoverflow.com/questions/2645041/ffmpeg-for-a-android-using-tutorial-ffmpeg-and-android-mk>
+- <http://stackoverflow.com/questions/9605757/using-ffmpeg-with-android-ndk>
+- <https://github.com/WritingMinds/ffmpeg-android> <https://github.com/hiteshsondhi88/SampleFFmpegApp>
+
+## Show Android screen on Linux PC
+
+- <http://www.linuxslaves.com/2015/12/how-to-mirror-android-screen-to-your-linux-desktop.html>
+- <https://www.reddit.com/r/linux/comments/2uam0u/how_can_i_mirror_my_android_device_on_my_linux/>
+- <https://www.youtube.com/watch?v=wCLAz74Hxz8>
+- <http://technologyinfinite.blogspot.fr/2015/06/share-your-android-phones-screen-linux.html>

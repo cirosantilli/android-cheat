@@ -11,3 +11,9 @@ You still need to download the video: <https://raw.githubusercontent.com/googles
 TODO: remove that download requirement. Either embed the file under `res/`, or generate one programmatically.
 
 TODO: change orientation breaks the video.
+
+Summary of how it works:
+
+- when an event happens, the Java code reports it to the NDK layer, and it gets added to a queue
+- the NDK forks a loop thread which does a single job: decode the video
+- video decoding happens without any explicit memory output copies inside the surface, so there is some chance that it is being doing efficiently in video memory all the time. Without this thread, UI would bog.

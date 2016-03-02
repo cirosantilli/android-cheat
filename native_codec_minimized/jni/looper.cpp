@@ -45,8 +45,6 @@ struct loopermessage {
     bool quit;
 };
 
-
-
 void* looper::trampoline(void* p) {
     ((looper*)p)->loop();
     return NULL;
@@ -61,7 +59,6 @@ looper::looper() {
     pthread_create(&worker, &attr, trampoline, this);
     running = true;
 }
-
 
 looper::~looper() {
     if (running) {

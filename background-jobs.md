@@ -5,3 +5,10 @@
 <http://stackoverflow.com/questions/2285680/when-to-use-a-service-or-asynctask-or-handler>
 
 <http://stackoverflow.com/questions/6964011/handler-vs-asynctask-vs-thread>
+
+- `Handler`
+- `AsyncTask`
+- `Service`
+    - `IntentService`. TODO: `bind` or `start`?
+    - http://stackoverflow.com/questions/3856767/android-keeping-a-background-service-alive-preventing-process-death
+- Standard Java methods (TODO usable?)

@@ -14,7 +14,7 @@ The internal SD card is partitioned and mounted as follows:
 
 -   `/system` is mounted readonly and is the ROM
     - `/system/bin`: system utilities, like `run-as`. You may not be able to run them without root.
--   `/sdcard` internal SD card
+-   `/sdcard` internal SD card. TODO check: mounted with `noexec`.
     - `/sdcard/Music` main music location. Apps will look there by default, but on other places as well. TODO API enforced, or just convention?
     - `/sdcard/Movies`
     - `/sdcard/Pictures` stock pictures

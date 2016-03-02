@@ -24,7 +24,10 @@ The actual implementation `.cpp` files seem to be scattered under `<ndk>/framewo
 
 ## Versions
 
-NDK updates don't come out together with the newest SDK! E.g., at some point there was SDK 23, but only NDK 21: <https://groups.google.com/forum/#!topic/android-ndk/5yBELmoFAYg>
+NDK updates don't come out together with the newest SDK! E.g., at some point there was SDK 23, but only NDK 21:
+
+- <https://groups.google.com/forum/#!topic/android-ndk/5yBELmoFAYg>
+- <https://groups.google.com/forum/#!topic/android-ndk/UZVjlTi_3qo>
 
 ## samples
 
@@ -41,3 +44,60 @@ Build as:
     ant installd
 
 More samples at: <https://github.com/googlesamples/android-ndk>
+
+## Build system
+
+## Application.mk
+
+## Android.mk
+
+In the past, NDK used Makefiles.
+
+As of 2016 the NDK examples are moving to pure Gradle.
+
+## NDK source tree
+
+- `toolchains`: several build cross compilers, GCC and clang. Those can be used without an Android app: <http://developer.android.com/ndk/guides/standalone_toolchain.html>
+- `platforms/`: headers and compiled libraries that you can use inside Android.
+
+## Compiler
+
+Moved to clang from GCC in 2015:
+
+- <https://android.googlesource.com/platform/ndk.git/+/master/CHANGELOG.md>
+- <https://news.ycombinator.com/item?id=10772826>
+
+## ndk-build
+
+Script that wraps make.
+
+Location: `<ndk>/ndk-build`.
+
+Show compilation commands:
+
+    ndk-build V=1
+
+The move to Gradle removes the need for it.
+
+## Compile executable without app
+
+Supported: <http://developer.android.com/ndk/guides/standalone_toolchain.html>
+
+    "$ANDROID_NDK/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-gcc-4.9" \
+        --sysroot="$ANDROID_NDK/platforms/android-21/arch-arm" \
+        hello_world.c -o hello_world
+    # /tmp is required...
+    adb push hello_world /data/local/tmp/hello_world
+    adb shell /data/local/tmp/hello_world
+
+TODO: I get <http://stackoverflow.com/questions/24818902/running-a-native-library-on-android-l-error-only-position-independent-executab>
+
+Adding `-fPIE -fpie` to the `gcc` command did not help.
+
+Threads:
+
+- <http://stackoverflow.com/questions/9868309/how-can-i-run-c-binary-executable-file-in-android-from-android-shell>
+- <http://stackoverflow.com/questions/13690419/writeable-and-executable-location-on-android>
+- <http://android.stackexchange.com/questions/45554/running-own-executable-on-android-shell>
+- <http://stackoverflow.com/questions/17383552/how-to-package-native-commandline-application-in-apk>
+- <http://stackoverflow.com/questions/6168303/compiling-c-code-netcat-to-native-android-executable>

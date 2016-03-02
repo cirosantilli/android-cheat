@@ -28,3 +28,7 @@ Official:
 Third-party:
 
 -   <https://github.com/commonsguy/cw-omnibus>, by Android monster <http://stackoverflow.com/users/115145/commonsware>
+
+-   <https://github.com/google/grafika> Android image / video manipulation. No JNI.
+
+    More samples by the same ex Googler: <http://bigflake.com/mediacodec/>

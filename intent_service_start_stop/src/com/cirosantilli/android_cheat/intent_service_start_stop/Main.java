@@ -7,7 +7,6 @@ import android.content.Context;
 import android.content.Intent;
 import android.content.IntentFilter;
 import android.os.Bundle;
-import android.os.Handler;
 import android.support.v4.content.LocalBroadcastManager;
 import android.util.Log;
 import android.view.View;
@@ -78,7 +77,6 @@ public class Main extends Activity {
     }
 
     public static class MyService extends IntentService {
-        private Handler mHandler;
         private int i = 1;
         private boolean done;
         public MyService() {
