@@ -81,6 +81,8 @@ TODO
 
 `tail -f` a huge log of all applications:
 
+
+    adb logcat -g
     adb logcat
 
 `cat` it instead of `tail -f`:
@@ -92,6 +94,8 @@ TODO: what exactly goes to that log. That I know of:
 - exception stack traces
 - `Log()` calls
 
+stdout is not logged: it requires a root-only hack it seems.
+
 Output lines are of type:
 
     E/AndroidRuntime(15141)
@@ -102,6 +106,8 @@ Where:
 - `AndroidRuntime`: TODO: class name? Why does it show `AndroidRuntime` instead of my app?
 - `15141`: TODO: PID?
 
+### Severity
+
 Show only errors:
 
     adb logcat '*:E'
@@ -110,6 +116,18 @@ Show only warnings and errors:
 
     adb logcat '*:W'
 
+### v
+
+<http://developer.android.com/tools/debugging/debugging-log.html#outputFormat>
+
+Show everything:
+
+    adb logcat -v long
+
+Time:
+
+    adb logcat -v time
+
 ### logcat size
 
 It is a circular buffer:
@@ -117,7 +135,32 @@ It is a circular buffer:
 - <http://stackoverflow.com/questions/6321555/what-is-the-size-limit-for-logcat>
 - <http://stackoverflow.com/questions/8888654/android-set-max-length-of-logcat-messages>
 
-It is a
+Data is stored compressed in logcat, so you may get much more raw characters than that.
+
+Can be obtained with:
+
+    adb logcat -g
+
+### r
+
+### n
+
+### How much data to print
+
+TODO: what do those options mean?
+
+    -r [<kbytes>]   Rotate log every kbytes. (16 if unspecified). Requires -f
+    -n <count>      Sets max number of rotated logs to <count>, default 4
+
+How to limit how many bytes?
+
+This answer claims they require `-f`: <http://stackoverflow.com/questions/23425066/adb-logcat-f-log-txt-error-couldnt-open-output-file-read-only-file-system>
+
+### f
+
+Output to file instead of stdout.
+
+But it seems that the file is inside the device, so you will likely get permission denied a lot: <http://stackoverflow.com/questions/23425066/adb-logcat-f-log-txt-error-couldnt-open-output-file-read-only-file-system>
 
 ### Filter logs for a single application
 
@@ -126,3 +169,7 @@ TODO: filter by a single application: <http://stackoverflow.com/questions/685412
 The PID selection solution from <http://stackoverflow.com/a/9869609/895245> should work.
 
 The easier way is to sort by tag of the `Log` class: <http://developer.android.com/reference/android/util/Log.html#d%28java.lang.String,%20java.lang.String%29>
+
+### /system/bin/logcat
+
+If you run that from `adb shell`, the output seems to be exactly the same.

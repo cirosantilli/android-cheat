@@ -32,3 +32,7 @@ Third-party:
 -   <https://github.com/google/grafika> Android image / video manipulation. No JNI.
 
     More samples by the same ex Googler: <http://bigflake.com/mediacodec/>
+
+-   <https://github.com/fyhertz/libstreaming-examples> Minuscule examples over a `MediaCodec` based library.
+
+    Example 1 streams camera over a `RTSP` server, and can be viewed with VLC.

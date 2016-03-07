@@ -23,3 +23,4 @@ The internal SD card is partitioned and mounted as follows:
     - Play Music location: <http://android.stackexchange.com/questions/16220/where-does-google-music-store-offline-songs>
 -   `/data` is called "Internal storage", and contains apps and their data. <http://android.stackexchange.com/questions/3002/where-in-the-file-system-are-applications-installed>. TODO: example?
 -   `/storage`
+-   `/dev/log/main`: TODO is this where the logcat is stored?
