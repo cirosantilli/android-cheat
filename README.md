@@ -50,7 +50,7 @@ Tested on Android 23, Ubuntu 15.10.
         1.  [IntentService](intent_service/)
             1.  [IntentService TextView](intent_service_text_view/)
             1.  [IntentService start stop](intent_service_start_stop/)
-    1.  [Socket](socket/)
+    1.  [ServerSocket](server_socket/)
     1.  Hardware
         1.  [Camera](camera/)
             1.  [Camera one shot](camera_one_shot/)
@@ -73,6 +73,7 @@ Tested on Android 23, Ubuntu 15.10.
         1.  [Contribute to AOSP](contribute-to-aosp.md)
         1.  [Internals](internals.md)
             1.  [Device file hierarchy](device-file-hierarchy.md)
+            1.  [Networking](networking.md)
         1.  [android command](android-command.md)
         1.  [adb](adb.md)
             1.  [Project file hierarchy](project-file-hierarchy.md)
@@ -95,8 +96,11 @@ Tested on Android 23, Ubuntu 15.10.
     1.  [Trivia](trivia.md)
     1.  [GPU](gpu.md)
     1.  [Security](security.md)
+    1.  [Close app](close-app.md)
 1.  Tools
-    1. [template.sh](template.sh)
+    1. [template](template)
+    1. [configure](configure)
+    1. [build-all](build-all)
 1.  Hardware
     1. [Fingerprint sensor](fingerprint-sensor.md)
 

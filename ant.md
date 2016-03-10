@@ -39,6 +39,10 @@ Specify device:
 
     ant -Dadb.device.arg='-s emulator-5554' installd
 
+Uninstall:
+
+    ant uninstall
+
 ## XML schema
 
 This is a project ID:

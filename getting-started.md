@@ -1,34 +1,52 @@
 # Getting started
 
-Step by step to get your first application up and running on the emulator and a real device.
+1. 	Install the development tools: <http://askubuntu.com/questions/318246/complete-installation-guide-for-android-sdk-adt-bundle-on-ubuntu/732010#732010>
 
-## Install Android development tools
+1.	Run once after cloning:
 
-<http://askubuntu.com/questions/318246/complete-installation-guide-for-android-sdk-adt-bundle-on-ubuntu/732010#732010>
+		./configure
 
-Then:
+1.	Build demo app:
 
-- copy paste to satisfy all symlinks under `min/libs`
-- the required files / directories will be under `<sdk>/extras`, use `find` or `locate`
-- for the directories, `cd` into them, and run `android update project -p . -t android-22`
-- yes, this is a horrible step, but we don't have a much better solution yet
+		cd appdir/
+		# If project uses NDK.
+		ndk-build
+		ant clean
+		ant debug
+
+1. 	Install individual built demo app:
+
+		ant installd
+
+1. 	Uninstall app:
+
+		ant uninstall
+
+1.	Build all without installing:
+
+		./build-all`
+
+1.	Build all and install them:
+
+		./build-all -i
+
+1. 	Uninstall all:
+
+		./build-all -u
 
 ## Run demos
 
 Once you are setup, chose a project directory to run like `min` and:
 
-    cd min
-    # If project uses NDK.
-    ndk-build
-    ant clean
-    ant debug
-    ant installd
-
 Now open your device and launch the app. No home icon is created by default.
 
-For simple one file projects like most of the examples here, you can automate the launching with:
+### Launch app automatically
 
-    adbr() (
+This function makes the app launch automatically for most apps in this repository.
+
+Only one device / emulator must be connected.
+
+    adb-run() (
       cd 'src/'
       file="$(find * -type f | head -n1)"
       dir="$(dirname "$file")"
@@ -36,3 +54,9 @@ For simple one file projects like most of the examples here, you can automate th
       dir="$(echo "$dir" | tr '/' '.')"
       adb shell am start -n "${dir}/${file}"
     )
+
+Now you can `cd` into the top-level of a built app, and do:
+
+	adb-run
+
+and the device should launch the application.

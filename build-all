@@ -1,0 +1,39 @@
+#!/usr/bin/env bash
+
+set -e
+
+install=false
+uninstall=false
+while getopts iu OPT; do
+  case "$OPT" in
+    i)
+      install=true
+      ;;
+    u)
+      uninstall=true
+      ;;
+    \?)
+      exit 2
+      ;;
+  esac
+done
+
+top="$(pwd)"
+
+cd "$top/default"
+android update project -p . -t android-22
+
+# TODO: get rid of those exceptions.
+for d in $(ls -d */ | grep -Ev 'location|studio-default'); do
+  cd "$top/$d"
+  if $uninstall; then
+    ant uninstall
+  else
+    echo "$d"
+    ant clean
+    ant debug
+    if $install; then
+      ant installd
+    fi
+  fi
+done

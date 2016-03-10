@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-      package="com.cirosantilli.android_cheat.socket"
+      package="com.cirosantilli.android_cheat.server_socket"
       android:versionCode="1"
       android:versionName="1.0">
     <uses-sdk android:minSdkVersion="22" />
     <uses-permission android:name="android.permission.INTERNET" />
-    <application android:label="AndroidCheatsocket">
+    <application android:label="AndroidCheatServerSocket">
         <activity android:name="Main">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

@@ -4,7 +4,7 @@
     <condition property="sdk.dir" value="${env.ANDROID_HOME}">
         <isset property="env.ANDROID_HOME" />
     </condition>
-    <property name="target" value="android-23" />
+    <property name="target" value="android-22" />
     <property name="android.library.reference.1" value="${env.ANDROID_HOME}/extras/google/google_play_services/libproject/google-play-services_lib"/>
     <import file="${sdk.dir}/tools/ant/build.xml" />
 </project>

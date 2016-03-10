@@ -1,10 +1,10 @@
-# socket
+# ServerSocket
 
 <http://stackoverflow.com/questions/7384678/how-to-create-socket-connection-in-android>
 
-This should be just plain Java, but you never know when Android decides to restrict us...
-
 Pure Java version: <https://github.com/cirosantilli/java-cheat/blob/043969128720d3f2040816e4d0fc0fbfcac51a0f/interactive/ServerSocketCheat.java>
+
+This should be just plain Java, but you never know when Android decides to restrict us...
 
 We need:
 
@@ -20,6 +20,6 @@ and type some lines.
 
 See the server logs with:
 
-    adb logcat -s AndroidCheatSocket
+    adb logcat -s AndroidCheatServerSocket
 
 Would be cooler to show them to screen, but lazy and less minimal.
