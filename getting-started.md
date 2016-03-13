@@ -1,6 +1,6 @@
 # Getting started
 
-1. 	Install the development tools: <http://askubuntu.com/questions/318246/complete-installation-guide-for-android-sdk-adt-bundle-on-ubuntu/732010#732010>
+1. 	Install the SDK and NDK: <http://askubuntu.com/questions/318246/complete-installation-guide-for-android-sdk-adt-bundle-on-ubuntu/732010#732010>
 
 1.	Run once after cloning:
 

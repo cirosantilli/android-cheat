@@ -40,8 +40,10 @@ Tested on Android 23, Ubuntu 15.10.
             1.  [Two activities](two_activities/)
             1.  [Activity lifecycle](activity_lifecycle/)
             1.  [Change view](change_view/)
-        1.  [Notification](notification/)
-        1.  [Toast](toast/)
+        1.  Notifications
+            1.  [Notification](notification/)
+            1.  [Toast](toast/)
+            1.  [AlertDialog](alert_dialog/)
         1.  [Fragment](fragment/)
             1. TODO: more interesting multi-fragment example.
         1.  Hardware
@@ -50,7 +52,10 @@ Tested on Android 23, Ubuntu 15.10.
         1.  [IntentService](intent_service/)
             1.  [IntentService TextView](intent_service_text_view/)
             1.  [IntentService start stop](intent_service_start_stop/)
+        1.  [AsyncTask](async_task/)
     1.  [ServerSocket](server_socket/)
+        1.  [Socket](socket/)
+            1.  [Socket AsyncTask](socket_async_task/)
     1.  Hardware
         1.  [Camera](camera/)
             1.  [Camera one shot](camera_one_shot/)

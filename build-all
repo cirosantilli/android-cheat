@@ -24,6 +24,7 @@ cd "$top/default"
 android update project -p . -t android-22
 
 # TODO: get rid of those exceptions.
+cd "$top"
 for d in $(ls -d */ | grep -Ev 'location|studio-default'); do
   cd "$top/$d"
   if $uninstall; then
@@ -31,6 +32,9 @@ for d in $(ls -d */ | grep -Ev 'location|studio-default'); do
   else
     echo "$d"
     ant clean
+    if [ -d 'jni' ]; then
+      ndk-build
+    fi
     ant debug
     if $install; then
       ant installd

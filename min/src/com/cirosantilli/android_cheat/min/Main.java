@@ -12,5 +12,4 @@ public class Main extends Activity {
         tv.setText("hello world");
         setContentView(tv);
     }
-
 }

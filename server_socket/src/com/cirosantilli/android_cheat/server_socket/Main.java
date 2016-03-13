@@ -19,7 +19,6 @@ import java.net.SocketException;
 import java.net.UnknownHostException;
 import java.util.Enumeration;
 
-
 public class Main extends Activity {
     static final int port = 12345;
     static final String TAG = "AndroidCheatServerSocket";

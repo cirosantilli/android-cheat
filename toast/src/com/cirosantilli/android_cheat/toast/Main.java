@@ -23,6 +23,6 @@ public class Main extends Activity {
                 Main.this.i++;
             }
         });
-        setContentView(button);
+        this.setContentView(button);
     }
 }
