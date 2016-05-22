@@ -2,6 +2,15 @@
 
 TODO: how to add Skype number to a contact?
 
+## Google search app
+
+Change URL handlers:
+
+- <http://android.stackexchange.com/questions/83319/how-to-disable-redirects-from-google-search-results-to-android-apps>
+- <http://android.stackexchange.com/questions/139489/how-to-disable-redirects-from-google-search-results-to-android-apps-different-i>
+
+Wikipedia has shows the option to open on the browser, but e.g. the Stack Exchange app *always* takes over!!!
+
 ## Chrome
 
 ### Full screen
@@ -161,3 +170,11 @@ Gmail is the most stock we can get in Android 5.
 <http://www.techrepublic.com/article/lollipop-kills-stock-email-app-in-favor-of-gmail/>
 
 <http://arstechnica.com/gadgets/2014/06/google-puts-androids-stock-e-mail-app-in-the-play-store/>
+
+## Photos
+
+## Google Photos
+
+- Photo descriptions before they are uploaded: <https://productforums.google.com/forum/#!topic/photos/2LxXxgKu3GE;context-place=forum/photos>
+- albums before upload: <https://productforums.google.com/forum/#!topicsearchin/photos/author$3Ame$20is$3Afirstpost>
+- Don't block the UI after "Back up now": allow me to continue browsing other photos <https://productforums.google.com/forum/#!topic/photos/Gy-DuJkCf5o>

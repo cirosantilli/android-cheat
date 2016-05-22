@@ -63,3 +63,12 @@ TODO: how to install? APK-only from Amazon web store? Why not from Google Play?
 #### Amazon Underground
 
 TODO: did it replace the Amazon App and the Amazon App Store apps?
+
+## List recent installs
+
+- http://android.stackexchange.com/questions/38973/how-to-list-my-recently-updated-apps
+
+Does not seem possible as there are apps for that...
+
+- https://play.google.com/store/apps/details?id=com.recentapps.activities&hl=en
+- https://play.google.com/store/apps/details?id=com.laurentiugh.mylatestapps&hl=en

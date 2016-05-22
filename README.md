@@ -1,8 +1,8 @@
 # Android Cheat
 
-Minimal Android examples and demos.
+Dozens of minimal Android 23 demo apps, each an example of one single Android API concept.
 
-Tested on Android 23, Ubuntu 15.10.
+Tested on Ubuntu 15.10.
 
 1.  [Getting started](getting-started.md)
 1.  [Examples](examples.md)
@@ -273,7 +273,10 @@ Open the camera, and search for it.
 
 ### App version
 
-Find: <http://android.stackexchange.com/questions/2016/how-can-you-tell-which-version-of-an-app-is-on-your-android-phone/130407#130407>
+Find:
+
+- any way <http://android.stackexchange.com/questions/2016/how-can-you-tell-which-version-of-an-app-is-on-your-android-phone/130407#130407>
+- adb <http://stackoverflow.com/questions/11942762/get-application-version-name-using-adb>
 
 ## Linux file transfer
 
