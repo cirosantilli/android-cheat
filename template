@@ -4,11 +4,11 @@
 #
 # Usage:
 #
-#     ./template.sh NewName
+#     ./template NewName
 #
 # Custom tempalte:
 #
-#     ./template.sh NewName OldName
+#     ./template NewName OldName
 set -ex
 new="$1"
 shift

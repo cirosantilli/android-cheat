@@ -29,6 +29,11 @@ NDK updates don't come out together with the newest SDK! E.g., at some point the
 - <https://groups.google.com/forum/#!topic/android-ndk/5yBELmoFAYg>
 - <https://groups.google.com/forum/#!topic/android-ndk/UZVjlTi_3qo>
 
+TODO:
+
+- check NDK toolkit version. I think visible under `cat source.properties`
+- check NDK version that a device supports <http://stackoverflow.com/questions/21876813/how-to-retrieve-the-supported-android-jni-version-in-a-device>
+
 ## samples
 
 Samples under `$ANDROID_NDK/ndk/samples/`. `hello-jni` is the most basic one.
@@ -55,12 +60,19 @@ In the past, NDK used Makefiles.
 
 As of 2016 the NDK examples are moving to pure Gradle.
 
+Useful options:
+
+    LOCAL_CFLAGS := -Werror
+    LOCAL_LDLIBS := -llog -lGLESv2
+
 ## NDK source tree
 
 - `toolchains`: several build cross compilers, GCC and clang. Those can be used without an Android app: <http://developer.android.com/ndk/guides/standalone_toolchain.html>
 - `platforms/`: headers and compiled libraries that you can use inside Android.
 
 ## Compiler
+
+<http://stackoverflow.com/questions/6602929/which-compiler-does-android-ndk-use>
 
 Moved to clang from GCC in 2015:
 
@@ -78,6 +90,14 @@ Show compilation commands:
     ndk-build V=1
 
 The move to Gradle removes the need for it.
+
+Clean:
+
+    ndk-build clean
+
+## ndk-gdb
+
+<http://stackoverflow.com/questions/10534367/how-to-get-ndk-gdb-working-on-android>
 
 ## Compile executable without app
 

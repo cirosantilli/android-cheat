@@ -65,12 +65,13 @@ Tested on Ubuntu 15.10.
     1.  [NDK](ndk/)
         1.  [NDK ABI](ndk_abi/)
         1.  [NDK log](ndk_log/)
+        1.  [NDK two files](ndk_two_files/)
+        1.  [NDK libc](ndk_libc/)
+        1.  [NDK C++](ndk_cpp/)
         1.  [Native codec minimized](native_codec_minimized/)
-    1.  CLI device tools
+    1.  [Device CLI tools](device-cli-tools.md)
         1.  [netcfg](netcfg.md)
         1.  [dumpsys](dumpsys.md)
-        1.  getprop TODO
-        1.  wm TODO
 1.  Theory
     1.  [Root](root.md)
     1.  Development
@@ -84,8 +85,10 @@ Tested on Ubuntu 15.10.
             1.  [Project file hierarchy](project-file-hierarchy.md)
                 1. [AndroidManifest.xml](android-manifest.md)
             1.  [ant](ant.md)
+        1.  [Debugging](debugging.md)
         1.  [Gradle](gradle.md)
         1.  [Apps](apps.md)
+            1. [WhatsApp](whatsapp.md)
         1.  [SDK](sdk.md)
         1.  [aapt](aapt.md)
         1.  [Studio](studio.md)
@@ -336,8 +339,9 @@ No JIT, full AOT is done.
 
 ### x86
 
-- <http://stackoverflow.com/questions/17770907/is-android-os-only-used-for-arm-cpus>
-- <http://www.android-x86.org/>
+-   <http://stackoverflow.com/questions/17770907/is-android-os-only-used-for-arm-cpus>
+
+-   <http://www.android-x86.org/>
 
     TODO: linked to the Intel partnership? Or that one is yet to be released?
 
@@ -360,14 +364,6 @@ Mounted under `/system`
 If you root the device, you can change it, and make a custom Android however you like.
 
 <https://www.youtube.com/watch?v=RIi4KXgZYsI&feature=iv&src_vid=AWNykj-lb-I&annotation_id=annotation_162326159>
-
-### Installed PATH utilities
-
-- <http://android.stackexchange.com/questions/2149/where-can-i-find-documentation-for-shell-commands>
-- <http://stackoverflow.com/questions/13619993/available-linux-commands-across-android-versions>
-- <http://android.stackexchange.com/questions/4021/how-can-i-execute-command-in-the-terminal-as-root>
-
-Undocumented? Great.
 
 ### USB debugging mode
 
@@ -469,3 +465,13 @@ Vary with Model, OEM and Carrier. TODO: are any built into the core?
 ## Hardware
 
 <http://developer.android.com/guide/topics/sensors/sensors_environment.html>
+
+## Emulator
+
+Official emulator based on QEMU: <http://stackoverflow.com/questions/2598942/android-emulator-is-based-on-qemu-can-i-use-kvm-with-it>
+
+## Enterprises
+
+### Open Handset Alliance
+
+<https://en.wikipedia.org/wiki/Open_Handset_Alliance>

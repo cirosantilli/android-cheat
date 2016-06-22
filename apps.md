@@ -78,18 +78,6 @@ Voice recognition button is there, but does nothing! Android 5.1.1, latest Googl
 
 Settings -> Apps -> All -> Xperia Home -> Clear data -> OK.
 
-## WhatsApp
-
-Emoji: button to the left of text box!
-
-Web interface: https://web.whatsapp.com/ App menu does not have the button for me: <http://android.stackexchange.com/questions/96531/how-to-scan-qr-code-for-whatsapp-web#comment162747_96547>
-
-Double ticks: <https://www.quora.com/Do-double-grey-ticks-on-the-WhatsApp-mean-the-person-is-online>
-
-- 1 gray tick: sent to server
-- 2 gray ticks: sent to recipient's phone
-- 2 blue ticks: recipient read the message
-
 ## Facebook messenger
 
 Why it exists in addition to WhatsApp: <http://thenextweb.com/facebook/2014/04/10/facebooks-two-pronged-mobile-messaging-app-strategy/>

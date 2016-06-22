@@ -11,6 +11,8 @@ About C API, not sure:
 
 TODO can you use the entire bionic API directly with NDK? How much does it implement?
 
+TODO is Bionic also code-dropped with the rest of Android?
+
 ## CLI utilities
 
 It does not have many CLI utilities, e.g. `cal`.

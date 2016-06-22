@@ -14,17 +14,23 @@
 		ant clean
 		ant debug
 
-1. 	Install individual built demo app:
+1. 	To install a built app, connect your device via USB and run:
 
-		ant installd
+        ant installd
+
+    No home icon is created by default: you have to find it on the list of recently installed apps.
+
+    App names are of form:
+
+        AndroidCheatAppName
 
 1. 	Uninstall app:
 
 		ant uninstall
 
-1.	Build all without installing:
+1.	Build all apps without installing:
 
-		./build-all`
+		./build-all
 
 1.	Build all and install them:
 
@@ -33,12 +39,6 @@
 1. 	Uninstall all:
 
 		./build-all -u
-
-## Run demos
-
-Once you are setup, chose a project directory to run like `min` and:
-
-Now open your device and launch the app. No home icon is created by default.
 
 ### Launch app automatically
 

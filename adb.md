@@ -37,8 +37,8 @@ TODO: I think this also lists emulators. TODO check.
 
 TODO: mention udev, device will ask for permission on screen. Then do:
 
-      sudo "$(which adb)" kill-server
-      sudo "$(which adb)" start-server
+    sudo "$(which adb)" kill-server
+    sudo "$(which adb)" start-server
 
 Install given apk to a device:
 
@@ -80,7 +80,6 @@ TODO
 ## logcat
 
 `tail -f` a huge log of all applications:
-
 
     adb logcat -g
     adb logcat
