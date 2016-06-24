@@ -68,6 +68,7 @@ Tested on Ubuntu 15.10.
         1.  [NDK two files](ndk_two_files/)
         1.  [NDK libc](ndk_libc/)
         1.  [NDK C++](ndk_cpp/)
+        1.  [NDK asm](ndk_asm/)
         1.  [Native codec minimized](native_codec_minimized/)
     1.  [Device CLI tools](device-cli-tools.md)
         1.  [netcfg](netcfg.md)
