@@ -36,7 +36,9 @@ TODO:
 
 ## samples
 
-Samples under `$ANDROID_NDK/ndk/samples/`. `hello-jni` is the most basic one.
+Samples previously under `$ANDROID_NDK/samples/`, now seem to be removed to <https://github.com/googlesamples/android-ndk>?
+
+`hello-jni` is the most basic one
 
 Build as:
 
@@ -47,8 +49,6 @@ Build as:
     ant clean
     ant debug
     ant installd
-
-More samples at: <https://github.com/googlesamples/android-ndk>
 
 ## Build system
 

@@ -2,6 +2,8 @@
 
 Located under `$ANDROID_SDK/tools/android`.
 
+Deprecated around 5.1.1, and no CLI replacement in sight... Studio is recommended for many tasks...
+
 ## GUI
 
 If you run just:
@@ -81,22 +83,14 @@ Looks like this template can be found under: `tools/templates/gradle`
 
 Android Virtual Devices. Manage emulators.
 
-If you have a real device, just use it instead. It is runs faster, and is more accurate, and the install time is not larger. Use emulators only for devices you don't own.
-
 GUI:
 
     android avd
 
 Allows to create and start emulators.
 
-Enable hardware keyboard: <http://stackoverflow.com/questions/11235370/android-emulator-doesnt-take-keyboard-input-sdk-tools-rev-20>
+## update
 
-TODO: from command line: <http://stackoverflow.com/questions/4974568/how-do-i-launch-the-android-emulator-from-the-command-line>
+Creates a `build.xml` for some useless Google samples that don't come with it...
 
-- start VM
-- install VM
-
-Use SIM card on emulator:
-
-- real: <https://simhacks.github.io/android-emulator/>
-- emulated: <http://stackoverflow.com/questions/6942605/how-to-simulate-a-sim-card-for-android>
+    android update project -p . -t android-23

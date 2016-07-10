@@ -10,6 +10,8 @@ Replaced Eclipse Android Development Tools (ADT).
 
 Can preview layout XMLs under `res/layout/` as a phone view.
 
+After download, run: `$(ANDROID_STUDIO)/studio.sh`.
+
 ## Community vs ultimate
 
 - <https://www.jetbrains.com/idea/features/>
@@ -52,7 +54,7 @@ Ctrl + Alt + S: Open settings dialog
 
 Ctrl + F3: find word at caret. Copy pastes it into the find dialog, and you can then use F3 to move back and forward.
 
-### Ubuntu conflicts
+### Ubuntu keyboard conflicts
 
 With some stupid Ubuntu keyboard shortcuts that do not use the super key as every system shortcut should:
 

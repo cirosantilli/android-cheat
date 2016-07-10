@@ -89,10 +89,13 @@ Tested on Ubuntu 15.10.
         1.  [Debugging](debugging.md)
         1.  [Gradle](gradle.md)
         1.  [Apps](apps.md)
-            1. [WhatsApp](whatsapp.md)
+            1.  [GAPPS](gapps.md)
+                1. [gmail](gmail.md)
+            1.  [WhatsApp](whatsapp.md)
         1.  [SDK](sdk.md)
         1.  [aapt](aapt.md)
         1.  [Studio](studio.md)
+        1.  [Emulator](emulator.md)
     1.  [AOSP](aosp.md)
     1.  [Desktop](desktop.md)
         1. [POSIX](posix.md)
@@ -117,11 +120,7 @@ Tested on Ubuntu 15.10.
 
 Mark all as read:
 
-https://productforums.google.com/forum/#!topic/gmail/h-7PALCVZH0
-
-## Gmail
-
-Archive: swipe right
+<https://productforums.google.com/forum/#!topic/gmail/h-7PALCVZH0>
 
 ## Uninstallable apps
 
@@ -157,18 +156,6 @@ On Xperia Z3, Power key + volume down.
     - only network symbols: <http://android.stackexchange.com/questions/56269/what-are-the-different-signal-indicators-avalable-on-the-notification-bar>
 -   4G vs H+ vs H
     - completely different WWAN standards: http://android.stackexchange.com/questions/56269/what-are-the-different-signal-indicators-avalable-on-the-notification-bar
-
-## Add contact to home page
-
-## Roaming
-
-Little staircase symbol with an R on top: means that you are using paid data: <http://www.galaxys5manual.com/android-icons-meaning/>
-
-The staircase icon shows the strength of the wide LAN.
-
-Turn off: <http://www.gadgetdaily.xyz/quick-tip-how-to-turn-off-data-roaming-on-android/>
-
-On 5.1, the "Mobile data" is also present on the default settings bar. It clearly explains that internet connection is gone unless you have Wifi.
 
 ## UI
 
@@ -467,12 +454,15 @@ Vary with Model, OEM and Carrier. TODO: are any built into the core?
 
 <http://developer.android.com/guide/topics/sensors/sensors_environment.html>
 
-## Emulator
-
-Official emulator based on QEMU: <http://stackoverflow.com/questions/2598942/android-emulator-is-based-on-qemu-can-i-use-kvm-with-it>
-
 ## Enterprises
 
 ### Open Handset Alliance
 
 <https://en.wikipedia.org/wiki/Open_Handset_Alliance>
+
+## Hardware requirements
+
+Memory:
+
+- <http://android.stackexchange.com/questions/34958/what-are-the-minimum-hardware-specifications-for-android>
+- <https://www.quora.com/What-is-the-minimum-RAM-size-needed-to-run-Android-5-1-or-6>

@@ -2,13 +2,16 @@
 
 Compatible platform versions are specified as a range under `AndroidManifest.xml`.
 
+Every Android version has 3 now equivalent names (not synced in older versions): Platform Version, API level and Version Code:
+
+- <http://android.stackexchange.com/questions/11400/what-are-the-names-of-the-various-versions-of-the-android-os-and-how-are-these/149217#149217>
+- <https://en.wikipedia.org/wiki/Android_version_history>
+
 <https://developer.android.com/training/basics/supporting-devices/platforms.html#sdk-versions>
 
 TODO: if you compile with a platform with level 23, can that run on a device with with level 22?
 
 ## API level
-
-<https://en.wikipedia.org/wiki/Android_version_history>
 
 <http://developer.android.com/about/dashboards/index.html>
 
