@@ -72,3 +72,16 @@ Does not seem possible as there are apps for that...
 
 - https://play.google.com/store/apps/details?id=com.recentapps.activities&hl=en
 - https://play.google.com/store/apps/details?id=com.laurentiugh.mylatestapps&hl=en
+
+## Download APK from play store
+
+-   browser extension
+-   third party website
+-   download on phone and extract it
+    - http://stackoverflow.com/questions/4032960/how-do-i-get-an-apk-file-from-an-android-device
+    - http://stackoverflow.com/questions/11012976/get-apk-of-installed-app
+    - http://stackoverflow.com/questions/7632156/can-i-get-apk-file-on-phone-of-the-installed-applications
+-   APK authors may publish raw APKs if they want, specially common with open source apps
+-   f-droid
+
+Illegal: http://www.makeuseof.com/tag/download-apk-google-play-bypass-restrictions/
