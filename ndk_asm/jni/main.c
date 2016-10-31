@@ -17,18 +17,18 @@ jstring Java_com_cirosantilli_android_1cheat_ndk_1asm_Main_jniMethod(
     int x = 0;
 #ifdef __arm__
     cur += snprintf(s + cur, N - cur, "arm ");
-    /* Inline test. */
+    /* Inline test. Increment x by 1. */
     asm (
         "add %0, #1"
         : "=r" (x)
         : "0" (x)
     );
+    /* Separate source test. Increment x by 1. */
     x += asm_main();
 #endif
     if (x == 2)
         cur += snprintf(s + cur, N - cur, "%s", "0");
     else
         cur += snprintf(s + cur, N - cur, "%s", "1");
-
     return (*env)->NewStringUTF(env, s);
 }
