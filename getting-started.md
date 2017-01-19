@@ -40,7 +40,7 @@
 
 		./build-all -u
 
-### Launch app automatically
+## Launch app automatically
 
 This function makes the app launch automatically for most apps in this repository.
 

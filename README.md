@@ -466,3 +466,13 @@ Memory:
 
 - <http://android.stackexchange.com/questions/34958/what-are-the-minimum-hardware-specifications-for-android>
 - <https://www.quora.com/What-is-the-minimum-RAM-size-needed-to-run-Android-5-1-or-6>
+
+## Native libraries available
+
+TODO Which native libraries must be available on all Android systems?
+
+OpenCL: mostly not:
+
+- <http://arrayfire.com/opencl-on-mobile-devices/>
+- <http://stackoverflow.com/questions/9005352/how-to-use-opencl-on-android>
+- <http://stackoverflow.com/questions/26795921/does-android-support-opencl>
