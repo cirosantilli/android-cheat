@@ -19,3 +19,7 @@ TODO
 ## wm
 
 TODO
+
+## Shutdown
+
+- <http://android.stackexchange.com/questions/43706/whats-the-best-way-to-restart-android-via-command-line-remotely>

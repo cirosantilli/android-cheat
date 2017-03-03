@@ -2,7 +2,10 @@
 
 Located under `$ANDROID_SDK/tools/android`.
 
-Deprecated around 5.1.1, and no CLI replacement in sight... Studio is recommended for many tasks...
+Deprecated around 5.1.1, and no CLI replacement in sight... Studio is recommended for many tasks... TODO source:
+
+- <http://stackoverflow.com/questions/35814663/create-android-project-with-gradle-from-command-line-deprecated>
+- <http://stackoverflow.com/questions/10969753/android-command-not-found>
 
 ## GUI
 

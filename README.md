@@ -476,3 +476,9 @@ OpenCL: mostly not:
 - <http://arrayfire.com/opencl-on-mobile-devices/>
 - <http://stackoverflow.com/questions/9005352/how-to-use-opencl-on-android>
 - <http://stackoverflow.com/questions/26795921/does-android-support-opencl>
+
+## UART
+
+## Serial
+
+- via headphone jack! <https://www.pentestpartners.com/blog/how-to-hardware-hack-android-over-uart/>
