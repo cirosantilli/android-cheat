@@ -2,11 +2,13 @@
 
 Tired of fighting to minimize unminimizable android studio bloat, just keep all the crap in the repo and be done with it.
 
+All projects must be imported, run correctly and not generate any produce no `git diff` with "Open an existing Android Studio project".
+
+Initial templates obtained from Android Studio new projects, then similar ones forked with the `./template` script.
+
 1.  [Getting started](getting-started.md)
 1.  [Examples](examples.md)
     1.  [Default](default/)
-    1.  [min](min/)
-    1.  [Studio default](studio-default/)
     1.  UI
         1.  [XML layout](xml_layout/)
         1.  View
@@ -69,49 +71,3 @@ Tired of fighting to minimize unminimizable android studio bloat, just keep all 
         1.  [NDK C++](ndk_cpp/)
         1.  [NDK asm](ndk_asm/)
         1.  [Native codec minimized](native_codec_minimized/)
-    1.  [Device CLI tools](device-cli-tools.md)
-        1.  [netcfg](netcfg.md)
-        1.  [dumpsys](dumpsys.md)
-1.  Theory
-    1.  [Root](root.md)
-    1.  Development
-        1.  [Build](build.md)
-        1.  [Contribute to AOSP](contribute-to-aosp.md)
-        1.  [Internals](internals.md)
-            1.  [Device file hierarchy](device-file-hierarchy.md)
-            1.  [Networking](networking.md)
-        1.  [android command](android-command.md)
-        1.  [adb](adb.md)
-            1.  [Project file hierarchy](project-file-hierarchy.md)
-                1. [AndroidManifest.xml](android-manifest.md)
-            1.  [ant](ant.md)
-        1.  [Debugging](debugging.md)
-        1.  [Gradle](gradle.md)
-        1.  [Apps](apps.md)
-            1.  [GAPPS](gapps.md)
-                1. [gmail](gmail.md)
-            1.  [WhatsApp](whatsapp.md)
-        1.  [SDK](sdk.md)
-        1.  [aapt](aapt.md)
-        1.  [Studio](studio.md)
-        1.  [Emulator](emulator.md)
-    1.  [AOSP](aosp.md)
-    1.  [Desktop](desktop.md)
-        1. [POSIX](posix.md)
-    1.  [Monitor app power consumption](monitor-app-power-consumption.md)
-    1.  Mods
-        1. [CyanogenMod](cyanogenmod.md)
-        1. [AOKP](aokp.md)
-    1.  [Google play](google-play.md)
-    1.  [Open source](open-source.md)
-    1.  [Trivia](trivia.md)
-    1.  [GPU](gpu.md)
-    1.  [Security](security.md)
-    1.  [Close app](close-app.md)
-1.  Tools
-    1. [template](template)
-    1. [configure](configure)
-    1. [build-all](build-all)
-1.  Hardware
-    1. [Fingerprint sensor](fingerprint-sensor.md)
-
