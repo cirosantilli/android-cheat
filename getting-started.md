@@ -39,24 +39,3 @@
 1. 	Uninstall all:
 
 		./build-all -u
-
-## Launch app automatically
-
-This function makes the app launch automatically for most apps in this repository.
-
-Only one device / emulator must be connected.
-
-    adb-run() (
-      cd 'src/'
-      file="$(find * -type f | head -n1)"
-      dir="$(dirname "$file")"
-      file="$(echo "$file" | sed -r 's/.java$//' | tr '/' '.')"
-      dir="$(echo "$dir" | tr '/' '.')"
-      adb shell am start -n "${dir}/${file}"
-    )
-
-Now you can `cd` into the top-level of a built app, and do:
-
-	adb-run
-
-and the device should launch the application.

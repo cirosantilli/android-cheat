@@ -61,7 +61,7 @@ Tested on Ubuntu 15.10 host, Android Tools [r25.2.5](https://stackoverflow.com/q
             1.  [Camera preview video](camera_preview_video/)
     1.  [Location theory](location.md)
         1. [Location](location/)
-    1.  [NDK](ndk/)
+    1.  NDK
         1.  [NDK ABI](ndk_abi/)
         1.  [NDK log](ndk_log/)
         1.  [NDK two files](ndk_two_files/)
