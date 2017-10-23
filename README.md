@@ -12,8 +12,7 @@ Tested on Ubuntu 15.10 host, Android Tools [r25.2.5](https://stackoverflow.com/q
     1.  UI
         1.  [XML layout](xml_layout/)
         1.  View
-            1.  [TextView newline](text_view_newline/)
-                1.  [TextView bold](text_view_bold/)
+            1.  TextView
                 1.  [TextView hyperlink](text_view_hyperlink/)
                 1.  [ScrollView](scroll_view/)
                 1.  [ScrollingMovementMethod](scrolling_movement_method/)

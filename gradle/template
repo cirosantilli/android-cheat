@@ -1,0 +1,20 @@
+#!/usr/bin/env bash
+set -ex
+new="$1"
+shift
+if [ $# -gt 0 ]; then
+  old="$1"
+  shift
+else
+  old='Min'
+fi
+old="$(echo "$old" | sed -E 's/\/$//')"
+new="$(echo "$new" | sed -E 's/\/$//')"
+new_lower="$(echo "$new" | tr 'A-Z' 'a-z')"
+old_lower="$(echo "$old" | tr 'A-Z' 'a-z')"
+cp -r "$old" "$new"
+cd "$new"
+find . -type f -print0 | xargs -0 sed -i "s/${old}/${new}/g"
+find . -type f -print0 | xargs -0 sed -i "s/${old_lower}/${new_lower}/g"
+cd 'app/src/main/java/com/cirosantilli/android_cheat'
+mv "$old_lower" "$new_lower"
