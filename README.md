@@ -2,7 +2,7 @@
 
 Dozens of minimal Android 23 demo apps, each an example of one single Android API concept.
 
-Tested on Ubuntu 15.10.
+Tested on Ubuntu 15.10 host, Android Tools [r25.2.5](https://stackoverflow.com/questions/9555337/how-to-downgrade-my-sdk-version), Android 6.0.1 device.
 
 1.  [Getting started](getting-started.md)
 1.  [Examples](examples.md)
