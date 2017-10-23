@@ -1,7 +1,0 @@
-#!/usr/bin/env bash
-set -e
-for d in */; do
-  cd "$d"
-  ./gradlew clean assembleDebug installDebug
-  cd ..
-done

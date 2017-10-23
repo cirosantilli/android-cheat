@@ -1,10 +1,40 @@
 # Gradle
 
-Tired of fighting to minimize unminimizable android studio bloat, just keep all the crap in the repo and be done with it.
+Pre-requisites:
 
-All projects must be imported, run correctly and not generate any produce no `git diff` with "Open an existing Android Studio project".
+- install Android Studio and the SDK
+- ensure that `adb shell` works, i.e. you can connect with USB or TCP to a device or emulator instance
 
-Initial templates obtained from Android Studio new projects, then similar ones forked with the `./template` script.
+Build all examples, install them to the device, and run one of them:
+
+    ./build -i
+    ./run TextViewBold/
+
+Build one example, install it to the device, and run it:
+
+    ./build -i TextViewBold/
+    ./run TextViewBold/
+
+or equivalently:
+
+    ./build -i -r TextViewBold/
+
+Uninstall all examples from the device:
+
+    ./build -u
+
+Start a new project from the boilerplate of an existing one:
+
+    ./template NewTextViewBold TextViewBold/
+    ./build -i -r NewTextViewBold/
+
+I'm a newb and I want to edit the project with Android Studio instead of Vim:
+
+- launch IDE
+- "Open an existing Android Studio project"
+- select a directory
+
+I got tired of fighting to minimize unminimizable Android Studio bloat of 20 million files to run a hello world program, and now just keep all the generated crap in the repo and be done with it. For most apps, please just ignore all files, and go straight for the `MainActivity.java`. Initial templates were obtained from Android Studio new projects, then similar ones forked with the `./template` script.
 
 1.  [Getting started](getting-started.md)
 1.  [Examples](examples.md)

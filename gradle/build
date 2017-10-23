@@ -1,0 +1,47 @@
+#!/usr/bin/env bash
+set -e
+
+install=false
+example=''
+run=false
+uninstall=false
+while getopts iru OPT; do
+  case "$OPT" in
+    i)
+      install=true
+      ;;
+    r)
+      run=true
+      ;;
+    u)
+      uninstall=true
+      ;;
+  esac
+done
+shift $(($OPTIND - 1))
+if [ $# -gt 0 ]; then
+  example="$1"
+  shift
+fi
+
+top="$(pwd)"
+if [ -n "$example" ]; then
+  examples="$example"
+else
+  examples="$(echo */)"
+fi
+for d in $examples; do
+  cd "${top}/${d}"
+  if "$uninstall"; then
+    ./gradlew uninstallAll
+  else
+    ./gradlew clean assembleDebug
+    if "$install"; then
+      ./gradlew installDebug
+    fi
+  fi
+done
+if "$run" && [ -n "$example" ]; then
+  cd "$top"
+  ./run "${example}"
+fi

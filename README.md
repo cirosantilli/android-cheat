@@ -1,8 +1,6 @@
 # Android Cheat
 
-Dozens of minimal Android 23 demo apps, each an example of one single Android API concept.
-
-Tested on Ubuntu 15.10 host, Android Tools [r25.2.5](https://stackoverflow.com/questions/9555337/how-to-downgrade-my-sdk-version), Android 6.0.1 device.
+Dozens of minimal Android demo apps, each a example of one single Android API concept. Tested on Ubuntu 16.04 host, Android Studio 2.3.3, Android SDK 26, and an Android 6.0.1 device.
 
 1.  [Getting started](getting-started.md)
 1.  [Examples](examples.md)
