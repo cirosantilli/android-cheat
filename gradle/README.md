@@ -96,6 +96,7 @@ I got tired of fighting to minimize unminimizable Android Studio bloat of 20 mil
     1.  [NDK](ndk/)
         1.  [NDK ABI](ndk_abi/)
         1.  [NDK log](ndk_log/)
+        1.  [NdkSyslog](NdkSyslog/)
         1.  [NDK two files](ndk_two_files/)
         1.  [NDK libc](ndk_libc/)
         1.  [NDK C++](ndk_cpp/)
