@@ -19,5 +19,7 @@ find . -type f -print0 | xargs -0 sed -i "s/${old_lower}/${new_lower}/g"
 cd 'app/src/main/java/com/cirosantilli/android_cheat'
 mv "$old_lower" "$new_lower"
 cd -
+git add .
 # Or build may fail due to stale build artifacts.
 git clean -xdf .
+git reset .
