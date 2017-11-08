@@ -93,7 +93,7 @@ I got tired of fighting to minimize unminimizable Android Studio bloat of 20 mil
             1.  [Camera preview video](camera_preview_video/)
     1.  [Location theory](location.md)
         1. [Location](location/)
-    1.  [Pwd](Pwd/)
+    1.  [Env](Env/)
     1.  [Ndk](Ndk/)
         1.  [NDK ABI](ndk_abi/)
         1.  [NDK log](ndk_log/)

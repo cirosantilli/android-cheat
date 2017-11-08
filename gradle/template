@@ -13,13 +13,15 @@ new="$(echo "$new" | sed -E 's/\/$//')"
 new_lower="$(echo "$new" | tr 'A-Z' 'a-z')"
 old_lower="$(echo "$old" | tr 'A-Z' 'a-z')"
 cp -r "$old" "$new"
-cd "$new"
+old_path="$(cd "$old" && pwd)"
+new_path="$(cd "$new" && pwd)"
+cd "$new_path"
 find . -type f -print0 | xargs -0 sed -i "s/${old}/${new}/g"
 find . -type f -print0 | xargs -0 sed -i "s/${old_lower}/${new_lower}/g"
 cd 'app/src/main/java/com/cirosantilli/android_cheat'
 mv "$old_lower" "$new_lower"
-cd -
-git add .
-# Or build may fail due to stale build artifacts.
-git clean -xdf .
-git reset .
+cd "$new_path"
+# Clean untracked files.
+git clean -Xdf .
+# Reset gradle to reduce changes of false replaces.
+cp "${old_path}/gradlew" .
