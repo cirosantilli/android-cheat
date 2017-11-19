@@ -20,6 +20,11 @@ or equivalently:
 
     ./build -i -r TextViewBold/
 
+You can also run the app from inside the app folder as:
+
+    cd TextViewBold
+    ../run
+
 Uninstall all examples from the device:
 
     ./build -u

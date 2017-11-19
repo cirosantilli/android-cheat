@@ -40,8 +40,6 @@
             1.  [Toast](toast/)
             1.  [AlertDialog](AlertDialog/)
         1.  [Fragment](fragment/)
-            1. TODO: more interesting multi-fragment example.
-        1.  Hardware
     1.  [BackgroundJobsTheory](background-jobs.md)
         1.  [Handler](handler/)
         1.  [IntentService](IntentService/)
