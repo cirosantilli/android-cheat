@@ -1,8 +1,9 @@
-#Gradle
+# Android Cheat
 
-1.  [Getting started](getting-started.md)
+Dozens of minimal Android demo apps, each a example of one single Android API concept. Tested on Ubuntu 17.10 host, Android Studio 3, Android SDK 26, and an Android 6.0.1 device.
+
+1.  [**Getting started**](getting-started.md)
 1.  [Examples](examples.md)
-    1.  [Default](default/)
     1.  UI
         1.  [XMLLayout](XmlLayout/)
         1.  View
@@ -14,8 +15,8 @@
                 1.  [ScrollingMovementMethod](ScrollingMovementMethod/)
                 1.  [EditText](EditText/)
                     1.  [EditText.getText](EditTextGetText/)
-                1.  [Button](button/)
-                    1.  [Checkbox](checkbox/)
+                1.  [Button](Button/)
+                    1.  [Checkbox](Checkbox/)
                     1.  [RadioButton](RadioButton/)
                 1.  [setTextColor](SetTextColor/)
             1.  [setBackgroundColor](SetBackgroundColor/)
@@ -26,35 +27,35 @@
                 1.  [LinearLayout](LinearLayout/)
             1.  Media
                 1.  [ImageView](ImageView/)
-                    1.  [Bitmap](bitmap/)
+                    1.  [Bitmap](Bitmap/)
                 1.  [VideoView](VideoView/)
             1.  Screen
-                1.  [Fullscreen](fullscreen/)
-                1.  [Portrait](portrait/)
+                1.  [Fullscreen](Fullscreen/)
+                1.  [Portrait](Portrait/)
         1.  Activities
             1.  [TwoActivities](TwoActivities/)
             1.  [ActivityLifecycle](ActivityLifecycle/)
             1.  [ChangeView](ChangeView/)
         1.  Notifications
-            1.  [Notification](notification/)
-            1.  [Toast](toast/)
+            1.  [Notification](Notification/)
+            1.  [Toast](Toast/)
             1.  [AlertDialog](AlertDialog/)
-        1.  [Fragment](fragment/)
+        1.  [Fragment](Fragment/)
     1.  [BackgroundJobsTheory](background-jobs.md)
-        1.  [Handler](handler/)
+        1.  [Handler](Handler/)
         1.  [IntentService](IntentService/)
             1.  [IntentServiceTextView](IntentServiceTextView/)
             1.  [IntentServiceStartStop](IntentServiceStartStop/)
         1.  [AsyncTask](AsyncTask/)
     1.  [ServerSocket](ServerSocket/)
-        1.  [Socket](socket/)
+        1.  [Socket](Socket/)
             1.  [SocketAsyncTask](SocketAsyncTask/)
     1.  Hardware
         1.  [Camera](camera/)
             1.  [CameraOneShot](CameraOneShot/)
             1.  [CameraPreviewVideo](CameraPreviewVideo/)
     1.  [Location theory](location.md)
-        1.[Location](location/)
+        1.[Location](Location/)
     1.  [Env](Env/)
     1.  [Ndk](Ndk/)
         1.  [NdkSyslog](NdkSyslog/)
