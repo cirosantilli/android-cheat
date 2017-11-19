@@ -1,3 +1,0 @@
-# ImageView
-
-`ImageView` with resource.
