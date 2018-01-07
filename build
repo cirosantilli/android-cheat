@@ -31,12 +31,14 @@ else
   examples="$(echo */)"
 fi
 for d in $examples; do
+  echo "$d"
   cd "${top}/${d}"
   if "$uninstall"; then
     ./gradlew uninstallAll
   else
     ./gradlew clean assembleDebug
     if "$install"; then
+      ./gradlew uninstallAll
       ./gradlew installDebug
     fi
   fi

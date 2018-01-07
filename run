@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 cd "${1:-.}/app/src/main/java/"
 file="$(find * -type f | head -n1)"
-dir="$(dirname "$file" | tr '/' '.')"
+dir="$(dirname "$file")"
 file="$(echo "$file" | sed -r 's/.java$//' | tr '/' '.')"
+dir="$(echo "$dir" | tr '/' '.')"
 adb shell am start -n "${dir}/${file}"
