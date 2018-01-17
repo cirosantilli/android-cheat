@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+# https://stackoverflow.com/questions/1809774/android-kernel-compile-and-test-with-android-emulator
+set -e
+mkdir -p aosp
+cd aosp
+curl https://storage.googleapis.com/git-repo-downloads/repo >repo
+chmod a+x repo
+./repo init -b android-8.1.0_r1 --depth 1 -u https://android.googlesource.com/platform/manifest
+./repo sync -c  -j $(($(nproc) - 2)) --no-tags --no-clone-bundle
+. build/envsetup.sh
+lunch aosp_arm-eng
+make -j $(($(nproc) - 2))

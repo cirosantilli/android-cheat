@@ -1,5 +1,6 @@
+/*.jar
+/aosp/
 bin/
 gen/
-obj/
 google-play-services_lib
-/*.jar
+obj/
