@@ -28,7 +28,7 @@ top="$(pwd)"
 if [ -n "$example" ]; then
   examples="$example"
 else
-  examples="$(echo */)"
+  examples="$(ls -d */ | grep -Ev '\.off/$')"
 fi
 for d in $examples; do
   echo "$d"
