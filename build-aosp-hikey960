@@ -1,13 +1,18 @@
 #!/usr/bin/env bash
+
 # Hikey960
 # https://source.android.com/setup/devices
+
+export USE_CCACHE=1
+
 mkdir tmp
 cd tmp
 top="$(pwd)"
 mkdir android
 cd android
-repo init -u https://android.googlesource.com/platform/manifest -b master
-repo sync -j$(nproc)
+repo init -b android-8.1.0_r1 --depth 1 -u https://android.googlesource.com/platform/manifest
+repo sync -c -j$(($(nproc) - 2)) --no-clone-bundle
+
 # TODO closed source driver blobs?
 wget https://dl.google.com/dl/android/aosp/arm-hikey960-OPR-cf4e0c80.tgz
 tar xzf arm-hikey960-OPR-cf4e0c80.tgz
@@ -18,12 +23,12 @@ make -j$(nproc)
 cd device/linaro/hikey/installer/hikey960
 ./flash-all.sh
 
-cd "$top"
-git clone https://android.googlesource.com/kernel/hikey-linaro
-cd hikey-linaro
-git checkout -b android-hikey-linaro-4.9 origin/android-hikey-linaro-4.9
-make ARCH=arm64 hikey960_defconfig
-make ARCH=arm64 CROSS_COMPILE=aarch64-linux-android- -j24
+#cd "$top"
+#git clone https://android.googlesource.com/kernel/hikey-linaro
+#cd hikey-linaro
+#git checkout -b android-hikey-linaro-4.9 origin/android-hikey-linaro-4.9
+#make ARCH=arm64 hikey960_defconfig
+#make ARCH=arm64 CROSS_COMPILE=aarch64-linux-android- -j24
 
 # TODO
 #Copy hi3660-hikey960.dtb (arch/arm64/boot/dts/hisilicon/hi3660-hikey960.dtb) to the hikey-kernel directory as file: hi3660-hikey960.dtb-4.9

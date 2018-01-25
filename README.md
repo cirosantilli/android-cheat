@@ -66,6 +66,8 @@ Dozens of minimal Android demo apps, each a example of one single Android API co
     1.  [Root](root.md)
     1.  Development
         1.  [Build AOSP](build-aosp.md)
+            1.  [build-aosp](build-aosp)
+            1.  [build-aosp-hikey960](build-aosp-hikey960)
         1.  [Contribute to AOSP](contribute-to-aosp.md)
         1.  [Internals](internals.md)
             1.  [Device file hierarchy](device-file-hierarchy.md)

@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 # https://stackoverflow.com/questions/1809774/android-kernel-compile-and-test-with-android-emulator
+export USE_CCACHE=1
 set -e
 mkdir -p aosp
 cd aosp
