@@ -65,7 +65,7 @@ Dozens of minimal Android demo apps, each a example of one single Android API co
 1.  Theory
     1.  [Root](root.md)
     1.  Development
-        1.  [Build](build.md)
+        1.  [Build AOSP](build-aosp.md)
         1.  [Contribute to AOSP](contribute-to-aosp.md)
         1.  [Internals](internals.md)
             1.  [Device file hierarchy](device-file-hierarchy.md)
@@ -86,6 +86,7 @@ Dozens of minimal Android demo apps, each a example of one single Android API co
         1.  [Studio](studio.md)
         1.  [Emulator](emulator.md)
     1.  [AOSP](aosp.md)
+        1. [repo](repo.md)
     1.  [Desktop](desktop.md)
         1. [POSIX](posix.md)
     1.  [Monitor app power consumption](monitor-app-power-consumption.md)
